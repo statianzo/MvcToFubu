@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcToFubu", "MvcToFubu\MvcToFubu.csproj", "{E5586741-24D8-4F18-86E9-913730BFCB03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcToFubu.Content", "MvcToFubu.Content\MvcToFubu.Content.csproj", "{92270947-6ADF-457D-8CD0-885D941A0644}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5586741-24D8-4F18-86E9-913730BFCB03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5586741-24D8-4F18-86E9-913730BFCB03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5586741-24D8-4F18-86E9-913730BFCB03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5586741-24D8-4F18-86E9-913730BFCB03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92270947-6ADF-457D-8CD0-885D941A0644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92270947-6ADF-457D-8CD0-885D941A0644}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92270947-6ADF-457D-8CD0-885D941A0644}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92270947-6ADF-457D-8CD0-885D941A0644}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
