@@ -45,11 +45,13 @@
     <Reference Include="Microsoft.Practices.ServiceLocation">
       <HintPath>..\..\lib\FubuMVC\Microsoft.Practices.ServiceLocation.dll</HintPath>
     </Reference>
-    <Reference Include="Spark">
-      <HintPath>..\..\lib\FubuMVC\Spark.dll</HintPath>
+    <Reference Include="Spark, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\Spark\Spark.dll</HintPath>
     </Reference>
-    <Reference Include="Spark.Web.FubuMVC">
-      <HintPath>..\..\lib\FubuMVC\Spark.Web.FubuMVC.dll</HintPath>
+    <Reference Include="Spark.Web.FubuMVC, Version=0.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\Spark\Spark.Web.FubuMVC.dll</HintPath>
     </Reference>
     <Reference Include="StructureMap">
       <HintPath>..\..\lib\FubuMVC\StructureMap.dll</HintPath>
@@ -80,7 +82,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="MvcToFubuRegistry.asax.cs" />
+    <Compile Include="MvcToFubuRegistry.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

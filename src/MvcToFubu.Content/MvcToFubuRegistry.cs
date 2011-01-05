@@ -4,7 +4,7 @@ using Spark.Web.FubuMVC.Extensions;
 
 namespace MvcToFubu.Content
 {
-	public class MvcToFubuRegistry:SparkFubuRegistry
+	public class MvcToFubuRegistry : SparkFubuRegistry
 	{
 		private readonly SparkViewFactory _factory;
 
@@ -13,6 +13,8 @@ namespace MvcToFubu.Content
 			_factory = factory;
 
 			Applies.ToThisAssembly();
+
+			IncludeDiagnostics(true);
 
 			Actions
 				.IncludeTypesNamed(x => x.EndsWith("Controller"));

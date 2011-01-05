@@ -6,7 +6,8 @@ namespace MvcToFubu.Controllers
 	{
 		public ActionResult Index()
 		{
-			return Content("Welcome Home");
+			
+			return View();
 		}
 	}
 }
