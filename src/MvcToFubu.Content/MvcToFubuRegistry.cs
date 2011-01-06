@@ -1,4 +1,6 @@
-﻿using MvcToFubu.Content.Controllers;
+﻿using FubuMVC.Core.UI.Configuration;
+using MvcToFubu.Content.Controllers;
+using MvcToFubu.Content.Models;
 using Spark.Web.FubuMVC;
 using Spark.Web.FubuMVC.Extensions;
 
@@ -26,7 +28,11 @@ namespace MvcToFubu.Content
 				               call => call.Method.Name);
 
 			Routes
-				.IgnoreMethodsNamed("Index");
+				.IgnoreMethodsNamed("Index")
+				.IgnoreNamespaceText("MvcToFubu.Content.Controllers")
+				.ForInputTypesOf<IIdentifiableName>(c => c.RouteInputFor(i => i.Name));
+
+			HtmlConvention<DefaultHtmlConventions>();
 
 			HomeIs<HomeController>(c => c.Home());
 		}

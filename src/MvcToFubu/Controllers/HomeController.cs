@@ -1,3 +1,4 @@
+using System.Web;
 using System.Web.Mvc;
 
 namespace MvcToFubu.Controllers
@@ -6,7 +7,6 @@ namespace MvcToFubu.Controllers
 	{
 		public ActionResult Index()
 		{
-			
 			return View();
 		}
 	}

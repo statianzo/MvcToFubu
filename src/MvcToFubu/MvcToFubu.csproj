@@ -55,7 +55,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="scripts\allplugins-require.js" />
+    <Content Include="scripts\boot.js" />
     <Content Include="Views\Home\Index.spark" />
+    <Content Include="Views\Layouts\Application.spark" />
+    <Content Include="Views\Layouts\Html.spark" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

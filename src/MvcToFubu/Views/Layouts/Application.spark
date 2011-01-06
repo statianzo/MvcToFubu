@@ -1,0 +1,14 @@
+<use master="Html" />
+<header>
+	<h1>
+		Welcome to MvcToFubu!
+	</h1>
+	<menu label="Menu">
+		<li><a href="~/contact">Contact</a></li>
+		<li><a href="~/about">About</a></li>
+	</menu>
+</header>
+<div id="main">
+	<use content="view" />
+</div>
+

@@ -1,1 +1,60 @@
-This is spark. ${System.DateTime.Now}
+<div id="lead">
+	<h2>
+		Get the best experience</h2>
+	<p>
+		We help you get what you need when you need it</p>
+	<a href="~/about">About</a> <a href="~/contact">Contact</a>
+</div>
+<div id="lower">
+	<div class="placeholder" data-placeholder-uri="shop/module/{campaignKeyword}" data-placeholder-load="true">
+		<p>
+			orem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ipsum nisl, bibendum vitae gravida et, fringilla vel quam.
+			Aliquam eu mi nisi. Morbi erat sapien, condimentum eget fermentum vitae, pulvinar id sem. Cras vel augue lectus. Sed accumsan
+			turpis non leo dictum nec adipiscing enim adipiscing. Integer bibendum, ipsum sit amet sodales auctor, odio dui laoreet
+			felis, et accumsan est nulla in eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+			Etiam felis sem, accumsan at aliquet ut, scelerisque vitae quam. Pellentesque sodales, nisi et lacinia egestas, nibh nisi
+			placerat dui, non commodo metus neque in elit. Integer sollicitudin malesuada dui eget convallis. Curabitur nec pulvinar
+			purus. Proin congue tempor vestibulum.
+		</p>
+		<p>
+			Praesent quam velit, molestie ut molestie eget, tincidunt ultricies purus. Nunc ut velit in velit congue pretium sit amet
+			non justo. Praesent pulvinar, ante ut lobortis bibendum, justo erat dictum magna, at facilisis justo magna in odio. Donec
+			scelerisque faucibus condimentum. Cras posuere dui quis arcu gravida ac gravida enim porttitor. Sed malesuada rhoncus orci
+			sed pulvinar. Fusce sit amet pellentesque mauris. Donec convallis, nisi ut molestie sagittis, justo purus mattis urna, a
+			posuere felis turpis ultricies nibh. Nunc mauris magna, vehicula ac varius eget, dapibus ac lorem. Quisque lacinia pulvinar
+			neque, vitae iaculis lacus iaculis quis. Aenean sit amet interdum ligula. Aliquam erat volutpat. Nam in nibh massa, non
+			auctor lacus. Morbi nec facilisis tortor. Duis felis leo, congue ut mattis eu, gravida ut purus. Morbi sollicitudin suscipit
+			nisl ut suscipit.
+		</p>
+		<p>
+			Cras magna massa, pretium non blandit quis, ullamcorper facilisis dui. Vestibulum vel lacus et erat facilisis sodales. Ut
+			non diam ipsum, sit amet ultrices tellus. In euismod sollicitudin arcu, condimentum volutpat purus blandit nec. Vivamus
+			adipiscing semper nisl vestibulum dapibus. Pellentesque dictum auctor ante ac posuere. Donec fringilla, turpis vitae facilisis
+			commodo, nisl nunc ultricies erat, in mattis metus lectus sit amet lacus. Donec nec nulla ac est luctus ultricies id consequat
+			mauris. Curabitur sed dui lorem, a faucibus nisi. Sed ut imperdiet metus.
+		</p>
+		<p>
+			Morbi eu nisl sem. Maecenas eget sem id velit facilisis bibendum in a sapien. Nulla nec nulla enim, sed euismod enim. Nunc
+			vitae massa nisl, vitae dictum enim. Nunc viverra, ligula at tincidunt feugiat, magna libero cursus risus, quis tincidunt
+			elit risus ac felis. Suspendisse et ultrices nunc. Cras porttitor quam vel lacus facilisis gravida. Duis condimentum porta
+			enim eleifend posuere. Praesent posuere dignissim massa ac ullamcorper. Sed faucibus ornare turpis. Etiam dignissim leo
+			sit amet dui tristique molestie. Ut non ante eu enim pretium suscipit. Cum sociis natoque penatibus et magnis dis parturient
+			montes, nascetur ridiculus mus. Morbi auctor scelerisque nisl, eget congue metus condimentum at. In auctor vulputate vulputate.
+			Praesent et mattis justo. Nullam lacus ligula, tristique sed dictum sed, sagittis id nulla. Morbi tristique, elit quis ullamcorper
+			ullamcorper, massa dui mattis dui, non consectetur sem leo eget ipsum. Pellentesque et tortor dolor.
+		</p>
+		<p>
+			Fusce feugiat nunc et felis sagittis condimentum. Integer purus est, auctor id faucibus ac, vulputate vitae sapien. Nunc
+			odio lorem, tincidunt eget consectetur quis, eleifend at tellus. Nam vel bibendum tellus. Duis sagittis justo in dui sagittis
+			tincidunt sagittis augue pellentesque. Donec pulvinar cursus nisl vitae vehicula. Nam ligula felis, sagittis at vehicula
+			id, convallis sed lorem. Cras varius eleifend magna id semper. Cras fermentum vestibulum nisi nec semper. Donec non elit
+			neque, vel dignissim arcu. Nulla ut augue mauris, sit amet sollicitudin quam. Donec id nisl a leo ullamcorper condimentum.
+			Aliquam erat volutpat. Nunc dolor orci, porta at hendrerit quis, consequat sed lacus. Nam at metus id lorem viverra aliquet.
+			Proin sodales nulla vitae turpis eleifend quis iaculis massa scelerisque.
+		</p>
+	</div>
+	<div data-placeholder-uri="blog/headlines" >
+	</div>
+	<div data-placeholder-uri="news">
+	</div>
+</div>

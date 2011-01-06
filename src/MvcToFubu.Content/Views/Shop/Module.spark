@@ -1,0 +1,6 @@
+<viewdata model="MvcToFubu.Content.Models.ShopModuleViewModel" />
+<h4>Welcome ${Model.Campaign} Shopper</h4>
+<form>
+<input name="search" type="search" />
+<input type="submit" value="Search!" />
+</form>

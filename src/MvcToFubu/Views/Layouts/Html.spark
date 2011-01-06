@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>MvcToFubu Test</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=8" />
+	<style>
+		div.placeholder
+		{
+			visibility: hidden;
+		}
+	</style>
+	<noscript>
+	<style>
+		div.placeholder
+		{
+			visibility: visible;
+		}
+	</style>
+	</noscript>
+</head>
+<body>
+	<use content="view" />
+	<script type="text/javascript" language="javascript" src="~/content/scripts/jquery-1.4.4.js"></script>
+	<script type="text/javascript">
+		$(function () {
+			console.log('test');
+		});
+	</script>
+	<script type="text/javascript" data-main="boot" src="~/scripts/allplugins-require.js"></script>
+	<use content="script" />
+</body>
+</html>

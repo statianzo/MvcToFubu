@@ -1,0 +1,9 @@
+<ul class="headline">
+	<li>Important Article 1</li>
+	<li>Special Article 2</li>
+	<li>Other Content 3</li>
+</ul>
+
+<script type="text/javascript">
+	require(['blog']);
+</script>
