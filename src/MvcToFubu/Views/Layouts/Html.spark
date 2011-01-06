@@ -3,29 +3,19 @@
 <head>
 	<title>MvcToFubu Test</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=8" />
-	<style>
-		div.placeholder
-		{
-			visibility: hidden;
-		}
-	</style>
 	<noscript>
 	<style>
-		div.placeholder
+        div[data-dynamic-uri]
 		{
 			visibility: visible;
 		}
 	</style>
 	</noscript>
+    <link rel="Stylesheet"  type="text/css" href="~/content/styles/main.css" />
 </head>
 <body>
 	<use content="view" />
 	<script type="text/javascript" language="javascript" src="~/content/scripts/jquery-1.4.4.js"></script>
-	<script type="text/javascript">
-		$(function () {
-			console.log('test');
-		});
-	</script>
 	<script type="text/javascript" data-main="boot" src="~/scripts/allplugins-require.js"></script>
 	<use content="script" />
 </body>

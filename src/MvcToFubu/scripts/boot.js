@@ -1,5 +1,5 @@
 require({
-	baseUrl: "http://fubutomvc.com/content/scripts/",
+	baseUrl: "/content/scripts/",
 	paths: {
 		underscore: "wrapper/require_underscore"
 	}

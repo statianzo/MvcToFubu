@@ -1,0 +1,4 @@
+div[data-dynamic-uri]
+{
+    visibility: hidden;
+}

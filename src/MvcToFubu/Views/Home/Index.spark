@@ -6,7 +6,7 @@
 	<a href="~/about">About</a> <a href="~/contact">Contact</a>
 </div>
 <div id="lower">
-	<div class="placeholder" data-placeholder-uri="shop/module/{campaignKeyword}" data-placeholder-load="true">
+	<div data-dynamic-uri="shop/module/{campaignKeyword}" data-dynamic-load="true">
 		<p>
 			orem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ipsum nisl, bibendum vitae gravida et, fringilla vel quam.
 			Aliquam eu mi nisi. Morbi erat sapien, condimentum eget fermentum vitae, pulvinar id sem. Cras vel augue lectus. Sed accumsan
@@ -53,8 +53,9 @@
 			Proin sodales nulla vitae turpis eleifend quis iaculis massa scelerisque.
 		</p>
 	</div>
-	<div data-placeholder-uri="blog/headlines" >
+	<div data-dynamic-uri="blog/headlines" >
 	</div>
-	<div data-placeholder-uri="news">
+	<div data-dynamic-uri="news">
+        the latest and greatest
 	</div>
 </div>

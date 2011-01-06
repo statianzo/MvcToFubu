@@ -78,6 +78,7 @@
     <Content Include="scripts\wrapper\require_jquery.js" />
     <Content Include="scripts\wrapper\require_underscore.js" />
     <Content Include="styles\blog.css" />
+    <Content Include="styles\main.css" />
     <Content Include="Views\Blog\Headlines.spark" />
     <Content Include="Views\Home\Home.spark" />
     <Content Include="Views\Shop\Module.spark" />
