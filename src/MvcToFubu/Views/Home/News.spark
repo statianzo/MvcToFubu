@@ -1,5 +1,3 @@
 <use master="" />
-<div>
 This just in....
 ${System.DateTime.Now}
-</div>
