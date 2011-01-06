@@ -1,4 +1,5 @@
 ﻿using FubuMVC.Core.UI.Configuration;
+using FubuMVC.Core.UI.Extensibility;
 using MvcToFubu.Content.Controllers;
 using MvcToFubu.Content.Models;
 using Spark.Web.FubuMVC;

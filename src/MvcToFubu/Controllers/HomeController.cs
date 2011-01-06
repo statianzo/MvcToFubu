@@ -1,5 +1,5 @@
-using System.Web;
 using System.Web.Mvc;
+using System.Web.Script.Serialization;
 
 namespace MvcToFubu.Controllers
 {
@@ -7,6 +7,13 @@ namespace MvcToFubu.Controllers
 	{
 		public ActionResult Index()
 		{
+			return View();
+		}
+
+		public ActionResult News()
+		{
+		    var data = new JavaScriptSerializer().Serialize(RouteData.Values);
+            Response.Output.Write(data);
 			return View();
 		}
 	}

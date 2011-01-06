@@ -55,7 +55,6 @@
 	</div>
 	<div data-dynamic-uri="blog/headlines" >
 	</div>
-	<div data-dynamic-uri="news">
-        the latest and greatest
+	<div data-partial-uri="home/news" >
 	</div>
 </div>
