@@ -82,8 +82,10 @@
     <Content Include="scripts\wrapper\require_underscore.js" />
     <Content Include="styles\blog.css" />
     <Content Include="styles\main.css" />
+    <Content Include="Views\bindings.xml" />
     <Content Include="Views\Blog\Headlines.spark" />
     <Content Include="Views\Home\Home.spark" />
+    <Content Include="Views\Shared\_global.spark" />
     <Content Include="Views\Shop\Module.spark" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -97,6 +99,9 @@
     <Compile Include="Controllers\BlogController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ShopController.cs" />
+    <Compile Include="Framework\FubuPageExtensions.cs" />
+    <Compile Include="Framework\RouteToHandler.cs" />
+    <Compile Include="Framework\StringOutputContext.cs" />
     <Compile Include="Models\BlogHeadlinesViewModel.cs" />
     <Compile Include="Models\HomeViewModel.cs" />
     <Compile Include="Global.asax.cs">

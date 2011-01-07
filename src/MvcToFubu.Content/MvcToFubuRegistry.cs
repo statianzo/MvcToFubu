@@ -1,5 +1,5 @@
 ﻿using FubuMVC.Core.UI.Configuration;
-using FubuMVC.Core.UI.Extensibility;
+using FubuMVC.Core.View;
 using MvcToFubu.Content.Controllers;
 using MvcToFubu.Content.Models;
 using Spark.Web.FubuMVC;
@@ -27,7 +27,6 @@ namespace MvcToFubu.Content
 				               call.HandlerType.Name.EndsWith("Controller"),
 				               call => call.HandlerType.Name.RemoveSuffix("Controller"),
 				               call => call.Method.Name);
-
 			Routes
 				.IgnoreMethodsNamed("Index")
 				.IgnoreNamespaceText("MvcToFubu.Content.Controllers")
