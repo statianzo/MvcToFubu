@@ -68,7 +68,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="scripts\allplugins-require.js" />
     <Content Include="scripts\blog.js" />
+    <Content Include="scripts\boot.js" />
     <Content Include="scripts\util\json.js" />
     <Content Include="scripts\main.js" />
     <Content Include="scripts\text\hello.txt" />
