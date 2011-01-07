@@ -15,7 +15,7 @@
 </head>
 <body>
 	<use content="view" />
-	<script type="text/javascript" language="javascript" src="~/content/scripts/jquery-1.4.4.js"></script>
+	<script type="text/javascript" language="javascript" src="~/content/scripts/lib/jquery-1.4.4.js"></script>
 	<script type="text/javascript" data-main="boot" src="~/content/scripts/allplugins-require.js"></script>
 	<use content="script" />
 </body>
