@@ -1,3 +1,4 @@
+using System.Web;
 using System.Web.Mvc;
 using System.Web.Script.Serialization;
 
@@ -7,6 +8,8 @@ namespace MvcToFubu.Controllers
 	{
 		public ActionResult Index()
 		{
+			Session["hello"] = "hi";
+			Response.Cookies.Add(new HttpCookie("sec", "cook"));
 			return View();
 		}
 

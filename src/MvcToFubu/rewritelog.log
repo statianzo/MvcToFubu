@@ -1,0 +1,2258 @@
+**********************************************************************************
+Logging started on 2011-01-12T11:07:28
+**********************************************************************************
+2011-01-12T11:07:28 **********************************************************************************
+2011-01-12T11:07:28 [Rewrite] Input: http://localhost:8883/
+2011-01-12T11:07:28 [Rule 0] Input: /
+2011-01-12T11:07:28 [Rule 1] Input: /
+2011-01-12T11:07:28 [Rewrite] Output: http://localhost:8883/
+2011-01-12T11:07:28 **********************************************************************************
+2011-01-12T11:07:30 **********************************************************************************
+2011-01-12T11:07:30 [Rewrite] Input: http://localhost:8883/favicon.ico
+2011-01-12T11:07:30 [Rule 0] Input: /favicon.ico
+2011-01-12T11:07:30 [Rule 1] Input: /favicon.ico
+2011-01-12T11:07:30 [Rewrite] Output: http://localhost:8883/favicon.ico
+2011-01-12T11:07:30 **********************************************************************************
+2011-01-12T11:07:30 **********************************************************************************
+2011-01-12T11:07:30 [Rewrite] Input: http://localhost:8883/other/shop/module/
+2011-01-12T11:07:30 **********************************************************************************
+2011-01-12T11:07:30 [Rule 0] Input: /other/shop/module/
+2011-01-12T11:07:30 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T11:07:30 [Rule 0] Input: /other/blog/headlines
+2011-01-12T11:07:30 [Rule 0] Rule Pattern Matched
+2011-01-12T11:07:30 [Rule 0] Rule Pattern Matched
+2011-01-12T11:07:30 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T11:07:30 [Rule 0] Output: http://localhost:8181/shop/module/
+2011-01-12T11:07:30 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T11:07:30 [Rewrite] Proxy: http://localhost:8181/shop/module/
+2011-01-12T11:07:30 **********************************************************************************
+2011-01-12T11:07:30 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T11:07:30 **********************************************************************************
+2011-01-12T11:07:30 [Proxy] Request: http://localhost:8181/shop/module/
+2011-01-12T11:07:30 [Proxy] System.Net.HttpWebResponse
+2011-01-12T11:07:30 [Proxy] Received '200 OK '
+2011-01-12T11:07:30 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T11:07:30 [Proxy] System.Net.HttpWebResponse
+2011-01-12T11:07:30 [Proxy] Received '200 OK '
+2011-01-12T11:07:30 [Proxy] Response: http://localhost:8883/other/shop/module/
+2011-01-12T11:07:30 [Proxy] Response is being buffered
+2011-01-12T11:07:30 [Proxy] Responding '200 OK '
+2011-01-12T11:07:30 [Proxy] Response is being buffered
+2011-01-12T11:07:30 [Proxy] Responding '200 OK '
+2011-01-12T11:07:30 **********************************************************************************
+2011-01-12T11:07:30 **********************************************************************************
+2011-01-12T11:07:30 **********************************************************************************
+2011-01-12T11:07:30 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T11:07:30 [Rule 0] Input: /other/blog/headlines
+2011-01-12T11:07:30 [Rule 0] Rule Pattern Matched
+2011-01-12T11:07:30 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T11:07:30 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T11:07:30 **********************************************************************************
+2011-01-12T11:07:30 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T11:07:30 [Proxy] System.Net.HttpWebResponse
+2011-01-12T11:07:30 [Proxy] Received '200 OK '
+2011-01-12T11:07:30 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T11:07:30 [Proxy] Response is being buffered
+2011-01-12T11:07:30 [Proxy] Responding '200 OK '
+2011-01-12T11:07:30 **********************************************************************************
+2011-01-12T11:07:30 **********************************************************************************
+2011-01-12T11:07:30 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T11:07:30 [Rule 0] Input: /other/blog/headlines
+2011-01-12T11:07:30 [Rule 0] Rule Pattern Matched
+2011-01-12T11:07:30 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T11:07:30 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T11:07:30 **********************************************************************************
+2011-01-12T11:07:30 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T11:07:30 [Proxy] System.Net.HttpWebResponse
+2011-01-12T11:07:30 [Proxy] Received '200 OK '
+2011-01-12T11:07:30 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T11:07:30 [Proxy] Response is being buffered
+2011-01-12T11:07:30 [Proxy] Responding '200 OK '
+2011-01-12T11:07:30 **********************************************************************************
+2011-01-12T11:07:42 **********************************************************************************
+2011-01-12T11:07:42 [Rewrite] Input: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T11:07:42 [Rule 0] Input: /authenticatedOther/shop/module
+2011-01-12T11:07:42 [Rule 1] Input: /authenticatedOther/shop/module
+2011-01-12T11:07:42 [Rule 1] Rule Pattern Matched
+2011-01-12T11:07:42 [Rule 1] Output: http://localhost:8181/shop/module
+2011-01-12T11:07:42 [Rewrite] Proxy: http://localhost:8181/shop/module
+2011-01-12T11:07:42 **********************************************************************************
+2011-01-12T11:07:42 [Proxy] Request: http://localhost:8181/shop/module
+2011-01-12T11:07:42 [Proxy] System.Net.HttpWebResponse
+2011-01-12T11:07:42 [Proxy] Received '200 OK '
+2011-01-12T11:07:42 [Proxy] Response: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T11:07:42 [Proxy] Response is being buffered
+2011-01-12T11:07:42 [Proxy] Responding '200 OK '
+2011-01-12T11:07:42 **********************************************************************************
+2011-01-12T11:07:42 **********************************************************************************
+2011-01-12T11:07:42 [Rewrite] Input: http://localhost:8883/favicon.ico
+2011-01-12T11:07:42 [Rule 0] Input: /favicon.ico
+2011-01-12T11:07:42 [Rule 1] Input: /favicon.ico
+2011-01-12T11:07:42 [Rewrite] Output: http://localhost:8883/favicon.ico
+2011-01-12T11:07:42 **********************************************************************************
+2011-01-12T11:08:07 **********************************************************************************
+2011-01-12T11:08:07 [Rewrite] Input: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T11:08:07 [Rule 0] Input: /authenticatedOther/shop/module
+2011-01-12T11:08:07 [Rule 1] Input: /authenticatedOther/shop/module
+2011-01-12T11:08:07 [Rule 1] Rule Pattern Matched
+2011-01-12T11:08:07 [Rule 1] Output: http://localhost:8181/shop/module
+2011-01-12T11:08:07 [Rewrite] Proxy: http://localhost:8181/shop/module
+2011-01-12T11:08:07 **********************************************************************************
+2011-01-12T11:08:07 [Proxy] Request: http://localhost:8181/shop/module
+2011-01-12T11:08:07 [Proxy] System.Net.HttpWebResponse
+2011-01-12T11:08:07 [Proxy] Received '200 OK '
+2011-01-12T11:08:07 [Proxy] Response: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T11:08:07 [Proxy] Response is being buffered
+2011-01-12T11:08:07 [Proxy] Responding '200 OK '
+2011-01-12T11:08:07 **********************************************************************************
+2011-01-12T11:08:07 **********************************************************************************
+2011-01-12T11:08:07 [Rewrite] Input: http://localhost:8883/favicon.ico
+2011-01-12T11:08:07 [Rule 0] Input: /favicon.ico
+2011-01-12T11:08:07 [Rule 1] Input: /favicon.ico
+2011-01-12T11:08:07 [Rewrite] Output: http://localhost:8883/favicon.ico
+2011-01-12T11:08:07 **********************************************************************************
+2011-01-12T11:08:10 **********************************************************************************
+2011-01-12T11:08:10 [Rewrite] Input: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T11:08:10 [Rule 0] Input: /authenticatedOther/shop/module
+2011-01-12T11:08:10 [Rule 1] Input: /authenticatedOther/shop/module
+2011-01-12T11:08:10 [Rule 1] Rule Pattern Matched
+2011-01-12T11:08:10 [Rule 1] Output: http://localhost:8181/shop/module
+2011-01-12T11:08:10 [Rewrite] Proxy: http://localhost:8181/shop/module
+2011-01-12T11:08:10 **********************************************************************************
+2011-01-12T11:08:10 [Proxy] Request: http://localhost:8181/shop/module
+2011-01-12T11:08:10 [Proxy] System.Net.HttpWebResponse
+2011-01-12T11:08:10 [Proxy] Received '200 OK '
+2011-01-12T11:08:10 [Proxy] Response: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T11:08:10 [Proxy] Response is being buffered
+2011-01-12T11:08:10 [Proxy] Responding '200 OK '
+2011-01-12T11:08:10 **********************************************************************************
+2011-01-12T11:08:10 **********************************************************************************
+2011-01-12T11:08:10 [Rewrite] Input: http://localhost:8883/favicon.ico
+2011-01-12T11:08:10 [Rule 0] Input: /favicon.ico
+2011-01-12T11:08:10 [Rule 1] Input: /favicon.ico
+2011-01-12T11:08:10 [Rewrite] Output: http://localhost:8883/favicon.ico
+2011-01-12T11:08:10 **********************************************************************************
+**********************************************************************************
+Logging started on 2011-01-12T11:08:54
+**********************************************************************************
+**********************************************************************************
+Logging started on 2011-01-12T11:09:06
+**********************************************************************************
+2011-01-12T11:09:06 **********************************************************************************
+2011-01-12T11:09:06 [Rewrite] Input: http://localhost:8883/
+2011-01-12T11:09:06 [Rule 0] Input: /
+2011-01-12T11:09:06 [Rule 1] Input: /
+2011-01-12T11:09:06 [Rewrite] Output: http://localhost:8883/
+2011-01-12T11:09:06 **********************************************************************************
+2011-01-12T11:09:24 **********************************************************************************
+2011-01-12T11:09:24 [Rewrite] Input: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T11:09:24 [Rule 0] Input: /authenticatedOther/shop/module
+2011-01-12T11:09:24 [Rule 1] Input: /authenticatedOther/shop/module
+2011-01-12T11:09:24 [Rule 1] Rule Pattern Matched
+2011-01-12T11:09:24 [Rule 1] Output: http://localhost:8181/shop/module
+2011-01-12T11:09:24 [Rewrite] Proxy: http://localhost:8181/shop/module
+2011-01-12T11:09:24 **********************************************************************************
+2011-01-12T11:09:24 [Proxy] Request: http://localhost:8181/shop/module
+2011-01-12T11:09:24 [Proxy] System.Net.HttpWebResponse
+2011-01-12T11:09:24 [Proxy] Received '200 OK '
+2011-01-12T11:09:24 [Proxy] Response: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T11:09:24 [Proxy] Response is being buffered
+2011-01-12T11:09:24 [Proxy] Responding '200 OK '
+2011-01-12T11:09:24 **********************************************************************************
+2011-01-12T11:09:24 **********************************************************************************
+2011-01-12T11:09:24 [Rewrite] Input: http://localhost:8883/favicon.ico
+2011-01-12T11:09:24 [Rule 0] Input: /favicon.ico
+2011-01-12T11:09:24 [Rule 1] Input: /favicon.ico
+2011-01-12T11:09:24 [Rewrite] Output: http://localhost:8883/favicon.ico
+2011-01-12T11:09:24 **********************************************************************************
+2011-01-12T11:11:00 **********************************************************************************
+2011-01-12T11:11:00 [Rewrite] Input: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T11:11:00 [Rule 0] Input: /authenticatedOther/shop/module
+2011-01-12T11:11:00 [Rule 1] Input: /authenticatedOther/shop/module
+2011-01-12T11:11:00 [Rule 1] Rule Pattern Matched
+2011-01-12T11:11:00 [Rule 1] Output: http://localhost:8181/shop/module
+2011-01-12T11:11:00 [Rewrite] Proxy: http://localhost:8181/shop/module
+2011-01-12T11:11:00 **********************************************************************************
+2011-01-12T11:11:00 [Proxy] Request: http://localhost:8181/shop/module
+2011-01-12T11:11:00 [Proxy] System.Net.HttpWebResponse
+2011-01-12T11:11:00 [Proxy] Received '200 OK '
+2011-01-12T11:11:00 [Proxy] Response: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T11:11:00 [Proxy] Response is being buffered
+2011-01-12T11:11:00 [Proxy] Responding '200 OK '
+2011-01-12T11:11:00 **********************************************************************************
+2011-01-12T11:11:00 **********************************************************************************
+2011-01-12T11:11:00 [Rewrite] Input: http://localhost:8883/favicon.ico
+2011-01-12T11:11:00 [Rule 0] Input: /favicon.ico
+2011-01-12T11:11:00 [Rule 1] Input: /favicon.ico
+2011-01-12T11:11:00 [Rewrite] Output: http://localhost:8883/favicon.ico
+2011-01-12T11:11:00 **********************************************************************************
+2011-01-12T11:11:02 **********************************************************************************
+2011-01-12T11:11:02 [Rewrite] Input: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T11:11:02 [Rule 0] Input: /authenticatedOther/shop/module
+2011-01-12T11:11:02 [Rule 1] Input: /authenticatedOther/shop/module
+2011-01-12T11:11:02 [Rule 1] Rule Pattern Matched
+2011-01-12T11:11:02 [Rule 1] Output: http://localhost:8181/shop/module
+2011-01-12T11:11:02 [Rewrite] Proxy: http://localhost:8181/shop/module
+2011-01-12T11:11:02 **********************************************************************************
+2011-01-12T11:11:02 [Proxy] Request: http://localhost:8181/shop/module
+2011-01-12T11:11:02 [Proxy] System.Net.HttpWebResponse
+2011-01-12T11:11:02 [Proxy] Received '200 OK '
+2011-01-12T11:11:02 [Proxy] Response: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T11:11:02 [Proxy] Response is being buffered
+2011-01-12T11:11:02 [Proxy] Responding '200 OK '
+2011-01-12T11:11:02 **********************************************************************************
+2011-01-12T11:11:02 **********************************************************************************
+2011-01-12T11:11:02 [Rewrite] Input: http://localhost:8883/favicon.ico
+2011-01-12T11:11:02 [Rule 0] Input: /favicon.ico
+2011-01-12T11:11:02 [Rule 1] Input: /favicon.ico
+2011-01-12T11:11:02 [Rewrite] Output: http://localhost:8883/favicon.ico
+2011-01-12T11:11:02 **********************************************************************************
+**********************************************************************************
+Logging started on 2011-01-12T11:13:58
+**********************************************************************************
+**********************************************************************************
+Logging started on 2011-01-12T11:14:16
+**********************************************************************************
+2011-01-12T11:14:16 **********************************************************************************
+2011-01-12T11:14:16 [Rewrite] Input: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T11:14:16 [Rule 0] Input: /authenticatedOther/shop/module
+2011-01-12T11:14:16 [Rule 1] Input: /authenticatedOther/shop/module
+2011-01-12T11:14:16 [Rule 1] Rule Pattern Matched
+2011-01-12T11:14:16 [Rule 1] Output: http://localhost:8181/shop/module
+2011-01-12T11:14:16 [Rewrite] Proxy: http://localhost:8181/shop/module
+2011-01-12T11:14:16 **********************************************************************************
+2011-01-12T11:14:16 [Proxy] Request: http://localhost:8181/shop/module
+2011-01-12T11:14:16 [Proxy] System.Net.HttpWebResponse
+2011-01-12T11:14:16 [Proxy] Received '200 OK '
+2011-01-12T11:14:16 [Proxy] Response: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T11:14:16 [Proxy] Response is being buffered
+2011-01-12T11:14:16 [Proxy] Responding '200 OK '
+2011-01-12T11:14:16 **********************************************************************************
+2011-01-12T11:14:16 **********************************************************************************
+2011-01-12T11:14:16 [Rewrite] Input: http://localhost:8883/favicon.ico
+2011-01-12T11:14:16 [Rule 0] Input: /favicon.ico
+2011-01-12T11:14:16 [Rule 1] Input: /favicon.ico
+2011-01-12T11:14:16 [Rewrite] Output: http://localhost:8883/favicon.ico
+2011-01-12T11:14:16 **********************************************************************************
+**********************************************************************************
+Logging started on 2011-01-12T11:14:31
+**********************************************************************************
+**********************************************************************************
+Logging started on 2011-01-12T11:22:53
+**********************************************************************************
+2011-01-12T11:22:53 **********************************************************************************
+2011-01-12T11:22:53 [Rewrite] Input: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T11:22:53 [Rule 0] Input: /authenticatedOther/shop/module
+2011-01-12T11:22:53 [Rule 1] Input: /authenticatedOther/shop/module
+2011-01-12T11:22:53 [Rule 1] Rule Pattern Matched
+2011-01-12T11:22:53 [Rule 1] Output: http://localhost:8181/shop/module
+2011-01-12T11:22:53 [Rewrite] Proxy: http://localhost:8181/shop/module
+2011-01-12T11:22:53 **********************************************************************************
+2011-01-12T11:22:53 [Proxy] Request: http://localhost:8181/shop/module
+2011-01-12T11:22:53 [Proxy] System.Net.HttpWebResponse
+2011-01-12T11:22:53 [Proxy] Received '200 OK '
+2011-01-12T11:22:53 [Proxy] Response: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T11:22:53 [Proxy] Response is being buffered
+2011-01-12T11:22:53 [Proxy] Responding '200 OK '
+2011-01-12T11:22:53 **********************************************************************************
+2011-01-12T11:22:53 **********************************************************************************
+2011-01-12T11:22:53 [Rewrite] Input: http://localhost:8883/favicon.ico
+2011-01-12T11:22:53 [Rule 0] Input: /favicon.ico
+2011-01-12T11:22:53 [Rule 1] Input: /favicon.ico
+2011-01-12T11:22:53 [Rewrite] Output: http://localhost:8883/favicon.ico
+2011-01-12T11:22:53 **********************************************************************************
+**********************************************************************************
+Logging started on 2011-01-12T11:22:59
+**********************************************************************************
+2011-01-12T11:23:18 **********************************************************************************
+2011-01-12T11:23:18 [Rewrite] Input: http://localhost:8883/
+2011-01-12T11:23:18 [Rule 0] Input: /
+2011-01-12T11:23:18 [Rule 1] Input: /
+2011-01-12T11:23:18 [Rewrite] Output: http://localhost:8883/
+2011-01-12T11:23:18 **********************************************************************************
+2011-01-12T11:23:19 **********************************************************************************
+2011-01-12T11:23:19 [Rewrite] Input: http://localhost:8883/favicon.ico
+2011-01-12T11:23:19 [Rule 0] Input: /favicon.ico
+2011-01-12T11:23:19 [Rule 1] Input: /favicon.ico
+2011-01-12T11:23:19 [Rewrite] Output: http://localhost:8883/favicon.ico
+2011-01-12T11:23:19 **********************************************************************************
+2011-01-12T11:23:19 **********************************************************************************
+2011-01-12T11:23:19 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T11:23:19 [Rule 0] Input: /other/blog/headlines
+2011-01-12T11:23:19 [Rule 0] Rule Pattern Matched
+2011-01-12T11:23:19 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T11:23:19 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T11:23:19 **********************************************************************************
+2011-01-12T11:23:19 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T11:23:19 [Proxy] System.Net.HttpWebResponse
+2011-01-12T11:23:19 [Proxy] Received '200 OK '
+2011-01-12T11:23:19 **********************************************************************************
+2011-01-12T11:23:19 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T11:23:19 [Rewrite] Input: http://localhost:8883/other/shop/module/
+2011-01-12T11:23:19 [Rule 0] Input: /other/shop/module/
+2011-01-12T11:23:19 [Rule 0] Rule Pattern Matched
+2011-01-12T11:23:19 [Rule 0] Output: http://localhost:8181/shop/module/
+2011-01-12T11:23:19 [Rewrite] Proxy: http://localhost:8181/shop/module/
+2011-01-12T11:23:19 **********************************************************************************
+2011-01-12T11:23:19 [Proxy] Request: http://localhost:8181/shop/module/
+2011-01-12T11:23:19 [Proxy] Response is being buffered
+2011-01-12T11:23:19 [Proxy] Responding '200 OK '
+2011-01-12T11:23:19 **********************************************************************************
+2011-01-12T11:23:19 [Proxy] System.Net.HttpWebResponse
+2011-01-12T11:23:19 [Proxy] Received '200 OK '
+2011-01-12T11:23:19 [Proxy] Response: http://localhost:8883/other/shop/module/
+2011-01-12T11:23:19 [Proxy] Response is being buffered
+2011-01-12T11:23:19 [Proxy] Responding '200 OK '
+2011-01-12T11:23:19 **********************************************************************************
+2011-01-12T11:23:19 **********************************************************************************
+2011-01-12T11:23:19 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T11:23:19 [Rule 0] Input: /other/blog/headlines
+2011-01-12T11:23:19 [Rule 0] Rule Pattern Matched
+2011-01-12T11:23:19 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T11:23:19 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T11:23:19 **********************************************************************************
+2011-01-12T11:23:19 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T11:23:19 [Proxy] System.Net.HttpWebResponse
+2011-01-12T11:23:19 [Proxy] Received '200 OK '
+2011-01-12T11:23:19 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T11:23:19 [Proxy] Response is being buffered
+2011-01-12T11:23:19 [Proxy] Responding '200 OK '
+2011-01-12T11:23:20 **********************************************************************************
+2011-01-12T11:23:20 **********************************************************************************
+2011-01-12T11:23:20 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T11:23:20 [Rule 0] Input: /other/blog/headlines
+2011-01-12T11:23:20 [Rule 0] Rule Pattern Matched
+2011-01-12T11:23:20 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T11:23:20 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T11:23:20 **********************************************************************************
+2011-01-12T11:23:20 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T11:23:20 [Proxy] System.Net.HttpWebResponse
+2011-01-12T11:23:20 [Proxy] Received '200 OK '
+2011-01-12T11:23:20 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T11:23:20 [Proxy] Response is being buffered
+2011-01-12T11:23:20 [Proxy] Responding '200 OK '
+2011-01-12T11:23:20 **********************************************************************************
+**********************************************************************************
+Logging started on 2011-01-12T11:23:35
+**********************************************************************************
+**********************************************************************************
+Logging started on 2011-01-12T11:23:40
+**********************************************************************************
+2011-01-12T11:23:40 **********************************************************************************
+2011-01-12T11:23:40 [Rewrite] Input: http://localhost:8883/
+2011-01-12T11:23:40 [Rule 0] Input: /
+2011-01-12T11:23:40 [Rule 1] Input: /
+2011-01-12T11:23:40 [Rewrite] Output: http://localhost:8883/
+2011-01-12T11:23:40 **********************************************************************************
+2011-01-12T11:23:42 **********************************************************************************
+2011-01-12T11:23:42 [Rewrite] Input: http://localhost:8883/favicon.ico
+2011-01-12T11:23:42 [Rule 0] Input: /favicon.ico
+2011-01-12T11:23:42 [Rule 1] Input: /favicon.ico
+2011-01-12T11:23:42 [Rewrite] Output: http://localhost:8883/favicon.ico
+2011-01-12T11:23:42 **********************************************************************************
+2011-01-12T11:23:43 **********************************************************************************
+2011-01-12T11:23:43 [Rewrite] Input: http://localhost:8883/other/shop/module/
+2011-01-12T11:23:43 [Rule 0] Input: /other/shop/module/
+2011-01-12T11:23:43 **********************************************************************************
+2011-01-12T11:23:43 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T11:23:43 [Rule 0] Input: /other/blog/headlines
+2011-01-12T11:23:43 [Rule 0] Rule Pattern Matched
+2011-01-12T11:23:43 [Rule 0] Rule Pattern Matched
+2011-01-12T11:23:43 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T11:23:43 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T11:23:43 **********************************************************************************
+2011-01-12T11:23:43 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T11:23:43 [Rule 0] Output: http://localhost:8181/shop/module/
+2011-01-12T11:23:43 [Rewrite] Proxy: http://localhost:8181/shop/module/
+2011-01-12T11:23:43 **********************************************************************************
+2011-01-12T11:23:43 [Proxy] Request: http://localhost:8181/shop/module/
+2011-01-12T11:23:43 [Proxy] System.Net.HttpWebResponse
+2011-01-12T11:23:43 [Proxy] Received '200 OK '
+2011-01-12T11:23:43 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T11:23:43 [Proxy] Response is being buffered
+2011-01-12T11:23:43 [Proxy] Responding '200 OK '
+2011-01-12T11:23:43 **********************************************************************************
+2011-01-12T11:23:43 [Proxy] System.Net.HttpWebResponse
+2011-01-12T11:23:43 [Proxy] Received '200 OK '
+2011-01-12T11:23:43 [Proxy] Response: http://localhost:8883/other/shop/module/
+2011-01-12T11:23:43 [Proxy] Response is being buffered
+2011-01-12T11:23:43 [Proxy] Responding '200 OK '
+2011-01-12T11:23:43 **********************************************************************************
+2011-01-12T11:23:43 **********************************************************************************
+2011-01-12T11:23:43 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T11:23:43 [Rule 0] Input: /other/blog/headlines
+2011-01-12T11:23:43 [Rule 0] Rule Pattern Matched
+2011-01-12T11:23:43 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T11:23:43 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T11:23:43 **********************************************************************************
+2011-01-12T11:23:43 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T11:23:43 [Proxy] System.Net.HttpWebResponse
+2011-01-12T11:23:43 [Proxy] Received '200 OK '
+2011-01-12T11:23:43 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T11:23:43 [Proxy] Response is being buffered
+2011-01-12T11:23:43 [Proxy] Responding '200 OK '
+2011-01-12T11:23:43 **********************************************************************************
+2011-01-12T11:23:43 **********************************************************************************
+2011-01-12T11:23:43 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T11:23:43 [Rule 0] Input: /other/blog/headlines
+2011-01-12T11:23:43 [Rule 0] Rule Pattern Matched
+2011-01-12T11:23:43 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T11:23:43 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T11:23:43 **********************************************************************************
+2011-01-12T11:23:43 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T11:23:43 [Proxy] System.Net.HttpWebResponse
+2011-01-12T11:23:43 [Proxy] Received '200 OK '
+2011-01-12T11:23:43 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T11:23:43 [Proxy] Response is being buffered
+2011-01-12T11:23:43 [Proxy] Responding '200 OK '
+2011-01-12T11:23:43 **********************************************************************************
+2011-01-12T11:23:54 **********************************************************************************
+2011-01-12T11:23:54 [Rewrite] Input: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T11:23:54 [Rule 0] Input: /authenticatedOther/shop/module
+2011-01-12T11:23:54 [Rule 1] Input: /authenticatedOther/shop/module
+2011-01-12T11:23:54 [Rule 1] Rule Pattern Matched
+2011-01-12T11:23:54 [Condition 0] Input: 
+2011-01-12T11:23:54 [Condition 0]  Not Matched
+2011-01-12T11:23:54 [Rewrite] Output: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T11:23:54 **********************************************************************************
+2011-01-12T11:23:54 **********************************************************************************
+2011-01-12T11:23:54 [Rewrite] Input: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T11:23:54 [Rule 0] Input: /authenticatedOther/shop/module
+2011-01-12T11:23:54 [Rule 1] Input: /authenticatedOther/shop/module
+2011-01-12T11:23:54 [Rule 1] Rule Pattern Matched
+2011-01-12T11:23:54 [Condition 0] Input: 
+2011-01-12T11:23:54 [Condition 0]  Not Matched
+2011-01-12T11:23:54 [Rewrite] Output: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T11:23:54 **********************************************************************************
+2011-01-12T11:23:54 **********************************************************************************
+2011-01-12T11:23:54 [Rewrite] Input: http://localhost:8883/favicon.ico
+2011-01-12T11:23:54 [Rule 0] Input: /favicon.ico
+2011-01-12T11:23:54 [Rule 1] Input: /favicon.ico
+2011-01-12T11:23:54 [Rewrite] Output: http://localhost:8883/favicon.ico
+2011-01-12T11:23:54 **********************************************************************************
+2011-01-12T11:24:14 **********************************************************************************
+2011-01-12T11:24:14 [Rewrite] Input: http://localhost:8883/favicon.ico
+2011-01-12T11:24:14 [Rule 0] Input: /favicon.ico
+2011-01-12T11:24:14 [Rule 1] Input: /favicon.ico
+2011-01-12T11:24:14 [Rewrite] Output: http://localhost:8883/favicon.ico
+2011-01-12T11:24:14 **********************************************************************************
+2011-01-12T11:24:14 **********************************************************************************
+2011-01-12T11:24:14 [Rewrite] Input: http://localhost:8883/other/shop/module/
+2011-01-12T11:24:14 [Rule 0] Input: /other/shop/module/
+2011-01-12T11:24:14 [Rule 0] Rule Pattern Matched
+2011-01-12T11:24:14 [Rule 0] Output: http://localhost:8181/shop/module/
+2011-01-12T11:24:14 [Rewrite] Proxy: http://localhost:8181/shop/module/
+2011-01-12T11:24:14 **********************************************************************************
+2011-01-12T11:24:14 [Proxy] Request: http://localhost:8181/shop/module/
+2011-01-12T11:24:14 **********************************************************************************
+2011-01-12T11:24:14 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T11:24:14 [Rule 0] Input: /other/blog/headlines
+2011-01-12T11:24:14 [Rule 0] Rule Pattern Matched
+2011-01-12T11:24:14 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T11:24:14 [Proxy] System.Net.HttpWebResponse
+2011-01-12T11:24:14 [Proxy] Received '200 OK '
+2011-01-12T11:24:14 [Proxy] Response: http://localhost:8883/other/shop/module/
+2011-01-12T11:24:14 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T11:24:14 **********************************************************************************
+2011-01-12T11:24:14 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T11:24:14 [Proxy] Response is being buffered
+2011-01-12T11:24:14 [Proxy] Responding '200 OK '
+2011-01-12T11:24:14 **********************************************************************************
+2011-01-12T11:24:14 [Proxy] System.Net.HttpWebResponse
+2011-01-12T11:24:14 [Proxy] Received '200 OK '
+2011-01-12T11:24:14 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T11:24:14 [Proxy] Response is being buffered
+2011-01-12T11:24:14 [Proxy] Responding '200 OK '
+2011-01-12T11:24:14 **********************************************************************************
+2011-01-12T11:24:14 **********************************************************************************
+2011-01-12T11:24:14 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T11:24:14 [Rule 0] Input: /other/blog/headlines
+2011-01-12T11:24:14 [Rule 0] Rule Pattern Matched
+2011-01-12T11:24:14 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T11:24:14 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T11:24:14 **********************************************************************************
+2011-01-12T11:24:14 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T11:24:15 [Proxy] System.Net.HttpWebResponse
+2011-01-12T11:24:15 [Proxy] Received '200 OK '
+2011-01-12T11:24:15 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T11:24:15 [Proxy] Response is being buffered
+2011-01-12T11:24:15 [Proxy] Responding '200 OK '
+2011-01-12T11:24:15 **********************************************************************************
+2011-01-12T11:24:15 **********************************************************************************
+2011-01-12T11:24:15 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T11:24:15 [Rule 0] Input: /other/blog/headlines
+2011-01-12T11:24:15 [Rule 0] Rule Pattern Matched
+2011-01-12T11:24:15 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T11:24:15 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T11:24:15 **********************************************************************************
+2011-01-12T11:24:15 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T11:24:15 [Proxy] System.Net.HttpWebResponse
+2011-01-12T11:24:15 [Proxy] Received '200 OK '
+2011-01-12T11:24:15 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T11:24:15 [Proxy] Response is being buffered
+2011-01-12T11:24:15 [Proxy] Responding '200 OK '
+2011-01-12T11:24:15 **********************************************************************************
+2011-01-12T11:24:16 **********************************************************************************
+2011-01-12T11:24:16 [Rewrite] Input: http://localhost:8883/authentication/logout
+2011-01-12T11:24:16 [Rule 0] Input: /authentication/logout
+2011-01-12T11:24:16 [Rule 1] Input: /authentication/logout
+2011-01-12T11:24:16 [Rewrite] Output: http://localhost:8883/authentication/logout
+2011-01-12T11:24:16 **********************************************************************************
+2011-01-12T11:24:16 **********************************************************************************
+2011-01-12T11:24:16 [Rewrite] Input: http://localhost:8883/
+2011-01-12T11:24:16 [Rule 0] Input: /
+2011-01-12T11:24:16 [Rule 1] Input: /
+2011-01-12T11:24:16 [Rewrite] Output: http://localhost:8883/
+2011-01-12T11:24:16 **********************************************************************************
+2011-01-12T11:24:16 **********************************************************************************
+2011-01-12T11:24:16 [Rewrite] Input: http://localhost:8883/favicon.ico
+2011-01-12T11:24:16 [Rule 0] Input: /favicon.ico
+2011-01-12T11:24:16 [Rule 1] Input: /favicon.ico
+2011-01-12T11:24:16 [Rewrite] Output: http://localhost:8883/favicon.ico
+2011-01-12T11:24:16 **********************************************************************************
+2011-01-12T11:24:16 **********************************************************************************
+2011-01-12T11:24:16 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T11:24:16 [Rule 0] Input: /other/blog/headlines
+2011-01-12T11:24:16 [Rule 0] Rule Pattern Matched
+2011-01-12T11:24:16 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T11:24:16 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T11:24:16 **********************************************************************************
+2011-01-12T11:24:16 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T11:24:16 **********************************************************************************
+2011-01-12T11:24:16 [Rewrite] Input: http://localhost:8883/other/shop/module/
+2011-01-12T11:24:16 [Rule 0] Input: /other/shop/module/
+2011-01-12T11:24:16 [Rule 0] Rule Pattern Matched
+2011-01-12T11:24:16 [Rule 0] Output: http://localhost:8181/shop/module/
+2011-01-12T11:24:16 [Rewrite] Proxy: http://localhost:8181/shop/module/
+2011-01-12T11:24:16 **********************************************************************************
+2011-01-12T11:24:16 [Proxy] Request: http://localhost:8181/shop/module/
+2011-01-12T11:24:16 [Proxy] System.Net.HttpWebResponse
+2011-01-12T11:24:16 [Proxy] Received '200 OK '
+2011-01-12T11:24:16 [Proxy] Response: http://localhost:8883/other/shop/module/
+2011-01-12T11:24:16 [Proxy] Response is being buffered
+2011-01-12T11:24:16 [Proxy] Responding '200 OK '
+2011-01-12T11:24:16 **********************************************************************************
+2011-01-12T11:24:16 [Proxy] System.Net.HttpWebResponse
+2011-01-12T11:24:16 [Proxy] Received '200 OK '
+2011-01-12T11:24:16 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T11:24:16 [Proxy] Response is being buffered
+2011-01-12T11:24:16 [Proxy] Responding '200 OK '
+2011-01-12T11:24:16 **********************************************************************************
+2011-01-12T11:24:16 **********************************************************************************
+2011-01-12T11:24:16 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T11:24:16 [Rule 0] Input: /other/blog/headlines
+2011-01-12T11:24:16 [Rule 0] Rule Pattern Matched
+2011-01-12T11:24:16 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T11:24:16 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T11:24:16 **********************************************************************************
+2011-01-12T11:24:16 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T11:24:16 [Proxy] System.Net.HttpWebResponse
+2011-01-12T11:24:16 [Proxy] Received '200 OK '
+2011-01-12T11:24:16 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T11:24:16 [Proxy] Response is being buffered
+2011-01-12T11:24:16 [Proxy] Responding '200 OK '
+2011-01-12T11:24:16 **********************************************************************************
+2011-01-12T11:24:16 **********************************************************************************
+2011-01-12T11:24:16 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T11:24:16 [Rule 0] Input: /other/blog/headlines
+2011-01-12T11:24:16 [Rule 0] Rule Pattern Matched
+2011-01-12T11:24:16 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T11:24:16 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T11:24:16 **********************************************************************************
+2011-01-12T11:24:16 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T11:24:16 [Proxy] System.Net.HttpWebResponse
+2011-01-12T11:24:16 [Proxy] Received '200 OK '
+2011-01-12T11:24:16 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T11:24:16 [Proxy] Response is being buffered
+2011-01-12T11:24:16 [Proxy] Responding '200 OK '
+2011-01-12T11:24:16 **********************************************************************************
+2011-01-12T11:24:16 **********************************************************************************
+2011-01-12T11:24:16 [Rewrite] Input: http://localhost:8883/authentication/login
+2011-01-12T11:24:16 [Rule 0] Input: /authentication/login
+2011-01-12T11:24:16 [Rule 1] Input: /authentication/login
+2011-01-12T11:24:16 [Rewrite] Output: http://localhost:8883/authentication/login
+2011-01-12T11:24:17 **********************************************************************************
+2011-01-12T11:24:17 **********************************************************************************
+2011-01-12T11:24:17 [Rewrite] Input: http://localhost:8883/favicon.ico
+2011-01-12T11:24:17 [Rule 0] Input: /favicon.ico
+2011-01-12T11:24:17 [Rule 1] Input: /favicon.ico
+2011-01-12T11:24:17 [Rewrite] Output: http://localhost:8883/favicon.ico
+2011-01-12T11:24:17 **********************************************************************************
+2011-01-12T11:24:17 **********************************************************************************
+2011-01-12T11:24:17 [Rewrite] Input: http://localhost:8883/authentication/content/scripts/lib/underscore.js
+2011-01-12T11:24:17 [Rule 0] Input: /authentication/content/scripts/lib/underscore.js
+2011-01-12T11:24:17 [Rule 1] Input: /authentication/content/scripts/lib/underscore.js
+2011-01-12T11:24:17 [Rewrite] Output: http://localhost:8883/authentication/content/scripts/lib/underscore.js
+2011-01-12T11:24:17 **********************************************************************************
+2011-01-12T11:24:22 **********************************************************************************
+2011-01-12T11:24:22 [Rewrite] Input: http://localhost:8883/authentication/loginsubmit
+2011-01-12T11:24:22 [Rule 0] Input: /authentication/loginsubmit
+2011-01-12T11:24:22 [Rule 1] Input: /authentication/loginsubmit
+2011-01-12T11:24:22 [Rewrite] Output: http://localhost:8883/authentication/loginsubmit
+2011-01-12T11:24:22 **********************************************************************************
+2011-01-12T11:24:22 **********************************************************************************
+2011-01-12T11:24:22 [Rewrite] Input: http://localhost:8883/
+2011-01-12T11:24:22 [Rule 0] Input: /
+2011-01-12T11:24:22 [Rule 1] Input: /
+2011-01-12T11:24:22 [Rewrite] Output: http://localhost:8883/
+2011-01-12T11:24:22 **********************************************************************************
+2011-01-12T11:24:22 **********************************************************************************
+2011-01-12T11:24:22 [Rewrite] Input: http://localhost:8883/favicon.ico
+2011-01-12T11:24:22 [Rule 0] Input: /favicon.ico
+2011-01-12T11:24:22 [Rule 1] Input: /favicon.ico
+2011-01-12T11:24:22 [Rewrite] Output: http://localhost:8883/favicon.ico
+2011-01-12T11:24:22 **********************************************************************************
+2011-01-12T11:24:22 **********************************************************************************
+2011-01-12T11:24:22 [Rewrite] Input: http://localhost:8883/other/shop/module/
+2011-01-12T11:24:22 [Rule 0] Input: /other/shop/module/
+2011-01-12T11:24:22 [Rule 0] Rule Pattern Matched
+2011-01-12T11:24:22 [Rule 0] Output: http://localhost:8181/shop/module/
+2011-01-12T11:24:22 [Rewrite] Proxy: http://localhost:8181/shop/module/
+2011-01-12T11:24:22 **********************************************************************************
+2011-01-12T11:24:22 [Proxy] Request: http://localhost:8181/shop/module/
+2011-01-12T11:24:22 **********************************************************************************
+2011-01-12T11:24:22 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T11:24:22 [Rule 0] Input: /other/blog/headlines
+2011-01-12T11:24:22 [Rule 0] Rule Pattern Matched
+2011-01-12T11:24:22 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T11:24:22 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T11:24:22 **********************************************************************************
+2011-01-12T11:24:22 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T11:24:22 [Proxy] System.Net.HttpWebResponse
+2011-01-12T11:24:22 [Proxy] Received '200 OK '
+2011-01-12T11:24:22 [Proxy] Response: http://localhost:8883/other/shop/module/
+2011-01-12T11:24:22 [Proxy] Response is being buffered
+2011-01-12T11:24:22 [Proxy] Responding '200 OK '
+2011-01-12T11:24:22 **********************************************************************************
+2011-01-12T11:24:22 [Proxy] System.Net.HttpWebResponse
+2011-01-12T11:24:22 [Proxy] Received '200 OK '
+2011-01-12T11:24:22 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T11:24:22 [Proxy] Response is being buffered
+2011-01-12T11:24:22 [Proxy] Responding '200 OK '
+2011-01-12T11:24:22 **********************************************************************************
+2011-01-12T11:24:22 **********************************************************************************
+2011-01-12T11:24:22 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T11:24:22 [Rule 0] Input: /other/blog/headlines
+2011-01-12T11:24:22 [Rule 0] Rule Pattern Matched
+2011-01-12T11:24:22 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T11:24:22 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T11:24:22 **********************************************************************************
+2011-01-12T11:24:22 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T11:24:22 [Proxy] System.Net.HttpWebResponse
+2011-01-12T11:24:22 [Proxy] Received '200 OK '
+2011-01-12T11:24:22 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T11:24:22 [Proxy] Response is being buffered
+2011-01-12T11:24:22 [Proxy] Responding '200 OK '
+2011-01-12T11:24:22 **********************************************************************************
+2011-01-12T11:24:22 **********************************************************************************
+2011-01-12T11:24:22 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T11:24:22 [Rule 0] Input: /other/blog/headlines
+2011-01-12T11:24:22 [Rule 0] Rule Pattern Matched
+2011-01-12T11:24:22 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T11:24:22 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T11:24:22 **********************************************************************************
+2011-01-12T11:24:22 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T11:24:22 [Proxy] System.Net.HttpWebResponse
+2011-01-12T11:24:22 [Proxy] Received '200 OK '
+2011-01-12T11:24:22 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T11:24:22 [Proxy] Response is being buffered
+2011-01-12T11:24:22 [Proxy] Responding '200 OK '
+2011-01-12T11:24:22 **********************************************************************************
+2011-01-12T11:24:26 **********************************************************************************
+2011-01-12T11:24:26 [Rewrite] Input: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T11:24:26 [Rule 0] Input: /authenticatedOther/shop/module
+2011-01-12T11:24:26 [Rule 1] Input: /authenticatedOther/shop/module
+2011-01-12T11:24:26 [Rule 1] Rule Pattern Matched
+2011-01-12T11:24:26 [Condition 0] Input: 
+2011-01-12T11:24:26 [Condition 0]  Not Matched
+2011-01-12T11:24:26 [Rewrite] Output: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T11:24:26 **********************************************************************************
+2011-01-12T11:24:26 **********************************************************************************
+2011-01-12T11:24:26 [Rewrite] Input: http://localhost:8883/favicon.ico
+2011-01-12T11:24:26 [Rule 0] Input: /favicon.ico
+2011-01-12T11:24:26 [Rule 1] Input: /favicon.ico
+2011-01-12T11:24:26 [Rewrite] Output: http://localhost:8883/favicon.ico
+2011-01-12T11:24:26 **********************************************************************************
+2011-01-12T11:27:16 **********************************************************************************
+2011-01-12T11:27:16 [Rewrite] Input: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T11:27:16 [Rule 0] Input: /authenticatedOther/shop/module
+2011-01-12T11:27:16 [Rule 1] Input: /authenticatedOther/shop/module
+2011-01-12T11:27:16 [Rule 1] Rule Pattern Matched
+2011-01-12T13:55:22 [Condition 0] Input: 
+2011-01-12T13:58:40 [Condition 0]  Not Matched
+2011-01-12T13:58:40 [Rewrite] Output: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T13:58:40 **********************************************************************************
+2011-01-12T13:58:40 **********************************************************************************
+2011-01-12T13:58:40 [Rewrite] Input: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T13:58:40 [Rule 0] Input: /authenticatedOther/shop/module
+2011-01-12T13:58:40 [Rule 1] Input: /authenticatedOther/shop/module
+2011-01-12T13:58:40 [Rule 1] Rule Pattern Matched
+2011-01-12T13:58:41 [Condition 0] Input: 
+2011-01-12T13:58:41 [Condition 0]  Not Matched
+2011-01-12T13:58:41 [Rewrite] Output: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T13:58:41 **********************************************************************************
+**********************************************************************************
+Logging started on 2011-01-12T14:02:26
+**********************************************************************************
+**********************************************************************************
+Logging started on 2011-01-12T14:04:45
+**********************************************************************************
+2011-01-12T14:04:45 **********************************************************************************
+2011-01-12T14:04:45 [Rewrite] Input: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T14:04:45 [Rule 0] Input: /authenticatedOther/shop/module
+2011-01-12T14:04:45 [Rule 1] Input: /authenticatedOther/shop/module
+2011-01-12T14:04:45 [Rule 1] Rule Pattern Matched
+2011-01-12T14:04:48 [Rewrite] Output: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T14:04:48 **********************************************************************************
+2011-01-12T14:04:48 **********************************************************************************
+2011-01-12T14:04:48 [Rewrite] Input: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T14:04:48 [Rule 0] Input: /authenticatedOther/shop/module
+2011-01-12T14:04:48 [Rule 1] Input: /authenticatedOther/shop/module
+2011-01-12T14:04:48 [Rule 1] Rule Pattern Matched
+2011-01-12T14:04:48 [Rewrite] Output: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T14:04:48 **********************************************************************************
+2011-01-12T14:04:48 **********************************************************************************
+2011-01-12T14:04:48 [Rewrite] Input: http://localhost:8883/favicon.ico
+2011-01-12T14:04:48 [Rule 0] Input: /favicon.ico
+2011-01-12T14:04:48 [Rule 1] Input: /favicon.ico
+2011-01-12T14:04:48 [Rewrite] Output: http://localhost:8883/favicon.ico
+2011-01-12T14:04:48 **********************************************************************************
+2011-01-12T14:05:11 **********************************************************************************
+2011-01-12T14:05:11 [Rewrite] Input: http://localhost:8883/
+2011-01-12T14:05:11 [Rule 0] Input: /
+2011-01-12T14:05:11 [Rule 1] Input: /
+2011-01-12T14:05:11 [Rewrite] Output: http://localhost:8883/
+2011-01-12T14:05:11 **********************************************************************************
+2011-01-12T14:05:12 **********************************************************************************
+2011-01-12T14:05:12 [Rewrite] Input: http://localhost:8883/favicon.ico
+2011-01-12T14:05:12 [Rule 0] Input: /favicon.ico
+2011-01-12T14:05:12 [Rule 1] Input: /favicon.ico
+2011-01-12T14:05:12 [Rewrite] Output: http://localhost:8883/favicon.ico
+2011-01-12T14:05:12 **********************************************************************************
+2011-01-12T14:05:12 **********************************************************************************
+2011-01-12T14:05:12 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T14:05:12 [Rule 0] Input: /other/blog/headlines
+2011-01-12T14:05:12 [Rule 0] Rule Pattern Matched
+2011-01-12T14:05:12 **********************************************************************************
+2011-01-12T14:05:12 [Rewrite] Input: http://localhost:8883/other/shop/module/
+2011-01-12T14:05:12 [Rule 0] Input: /other/shop/module/
+2011-01-12T14:05:12 [Rule 0] Rule Pattern Matched
+2011-01-12T14:05:12 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T14:05:12 [Rule 0] Output: http://localhost:8181/shop/module/
+2011-01-12T14:05:12 [Rewrite] Proxy: http://localhost:8181/shop/module/
+2011-01-12T14:05:12 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T14:05:12 **********************************************************************************
+2011-01-12T14:05:12 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T14:05:12 **********************************************************************************
+2011-01-12T14:05:12 [Proxy] Request: http://localhost:8181/shop/module/
+2011-01-12T14:05:12 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:05:12 [Proxy] Received '200 OK '
+2011-01-12T14:05:12 [Proxy] Response: http://localhost:8883/other/shop/module/
+2011-01-12T14:05:12 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:05:12 [Proxy] Received '200 OK '
+2011-01-12T14:05:12 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T14:05:12 [Proxy] Response is being buffered
+2011-01-12T14:05:12 [Proxy] Responding '200 OK '
+2011-01-12T14:05:12 [Proxy] Response is being buffered
+2011-01-12T14:05:12 [Proxy] Responding '200 OK '
+2011-01-12T14:05:12 **********************************************************************************
+2011-01-12T14:05:12 **********************************************************************************
+2011-01-12T14:05:12 **********************************************************************************
+2011-01-12T14:05:12 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T14:05:12 [Rule 0] Input: /other/blog/headlines
+2011-01-12T14:05:12 [Rule 0] Rule Pattern Matched
+2011-01-12T14:05:12 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T14:05:12 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T14:05:12 **********************************************************************************
+2011-01-12T14:05:12 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T14:05:12 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:05:12 [Proxy] Received '200 OK '
+2011-01-12T14:05:12 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T14:05:12 [Proxy] Response is being buffered
+2011-01-12T14:05:12 [Proxy] Responding '200 OK '
+2011-01-12T14:05:12 **********************************************************************************
+2011-01-12T14:05:12 **********************************************************************************
+2011-01-12T14:05:12 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T14:05:12 [Rule 0] Input: /other/blog/headlines
+2011-01-12T14:05:12 [Rule 0] Rule Pattern Matched
+2011-01-12T14:05:12 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T14:05:12 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T14:05:12 **********************************************************************************
+2011-01-12T14:05:12 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T14:05:12 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:05:12 [Proxy] Received '200 OK '
+2011-01-12T14:05:12 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T14:05:12 [Proxy] Response is being buffered
+2011-01-12T14:05:12 [Proxy] Responding '200 OK '
+2011-01-12T14:05:12 **********************************************************************************
+2011-01-12T14:05:13 **********************************************************************************
+2011-01-12T14:05:13 [Rewrite] Input: http://localhost:8883/authentication/login
+2011-01-12T14:05:14 [Rule 0] Input: /authentication/login
+2011-01-12T14:05:14 [Rule 1] Input: /authentication/login
+2011-01-12T14:05:14 [Rewrite] Output: http://localhost:8883/authentication/login
+2011-01-12T14:05:14 **********************************************************************************
+2011-01-12T14:05:18 **********************************************************************************
+2011-01-12T14:05:18 [Rewrite] Input: http://localhost:8883/authentication/content/scripts/lib/underscore.js
+2011-01-12T14:05:18 [Rule 0] Input: /authentication/content/scripts/lib/underscore.js
+2011-01-12T14:05:18 [Rule 1] Input: /authentication/content/scripts/lib/underscore.js
+2011-01-12T14:05:18 [Rewrite] Output: http://localhost:8883/authentication/content/scripts/lib/underscore.js
+2011-01-12T14:05:18 **********************************************************************************
+2011-01-12T14:05:18 **********************************************************************************
+2011-01-12T14:05:18 [Rewrite] Input: http://localhost:8883/favicon.ico
+2011-01-12T14:05:18 [Rule 0] Input: /favicon.ico
+2011-01-12T14:05:18 [Rule 1] Input: /favicon.ico
+2011-01-12T14:05:18 [Rewrite] Output: http://localhost:8883/favicon.ico
+2011-01-12T14:05:18 **********************************************************************************
+2011-01-12T14:05:24 **********************************************************************************
+2011-01-12T14:05:24 [Rewrite] Input: http://localhost:8883/authentication/loginsubmit
+2011-01-12T14:05:24 [Rule 0] Input: /authentication/loginsubmit
+2011-01-12T14:05:24 [Rule 1] Input: /authentication/loginsubmit
+2011-01-12T14:05:24 [Rewrite] Output: http://localhost:8883/authentication/loginsubmit
+2011-01-12T14:05:24 **********************************************************************************
+2011-01-12T14:05:24 **********************************************************************************
+2011-01-12T14:05:24 [Rewrite] Input: http://localhost:8883/
+2011-01-12T14:05:24 [Rule 0] Input: /
+2011-01-12T14:05:24 [Rule 1] Input: /
+2011-01-12T14:05:24 [Rewrite] Output: http://localhost:8883/
+2011-01-12T14:05:24 **********************************************************************************
+2011-01-12T14:05:24 **********************************************************************************
+2011-01-12T14:05:24 [Rewrite] Input: http://localhost:8883/favicon.ico
+2011-01-12T14:05:24 [Rule 0] Input: /favicon.ico
+2011-01-12T14:05:24 [Rule 1] Input: /favicon.ico
+2011-01-12T14:05:24 [Rewrite] Output: http://localhost:8883/favicon.ico
+2011-01-12T14:05:24 **********************************************************************************
+2011-01-12T14:05:25 **********************************************************************************
+2011-01-12T14:05:25 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T14:05:25 [Rule 0] Input: /other/blog/headlines
+2011-01-12T14:05:25 [Rule 0] Rule Pattern Matched
+2011-01-12T14:05:25 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T14:05:25 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T14:05:25 **********************************************************************************
+2011-01-12T14:05:25 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T14:05:25 **********************************************************************************
+2011-01-12T14:05:25 [Rewrite] Input: http://localhost:8883/other/shop/module/
+2011-01-12T14:05:25 [Rule 0] Input: /other/shop/module/
+2011-01-12T14:05:25 [Rule 0] Rule Pattern Matched
+2011-01-12T14:05:25 [Rule 0] Output: http://localhost:8181/shop/module/
+2011-01-12T14:05:25 [Rewrite] Proxy: http://localhost:8181/shop/module/
+2011-01-12T14:05:25 **********************************************************************************
+2011-01-12T14:05:25 [Proxy] Request: http://localhost:8181/shop/module/
+2011-01-12T14:05:25 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:05:25 [Proxy] Received '200 OK '
+2011-01-12T14:05:25 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T14:05:25 [Proxy] Response is being buffered
+2011-01-12T14:05:25 [Proxy] Responding '200 OK '
+2011-01-12T14:05:25 **********************************************************************************
+2011-01-12T14:05:25 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:05:25 [Proxy] Received '200 OK '
+2011-01-12T14:05:25 [Proxy] Response: http://localhost:8883/other/shop/module/
+2011-01-12T14:05:25 [Proxy] Response is being buffered
+2011-01-12T14:05:25 [Proxy] Responding '200 OK '
+2011-01-12T14:05:25 **********************************************************************************
+2011-01-12T14:05:25 **********************************************************************************
+2011-01-12T14:05:25 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T14:05:25 [Rule 0] Input: /other/blog/headlines
+2011-01-12T14:05:25 [Rule 0] Rule Pattern Matched
+2011-01-12T14:05:25 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T14:05:25 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T14:05:25 **********************************************************************************
+2011-01-12T14:05:25 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T14:05:25 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:05:25 [Proxy] Received '200 OK '
+2011-01-12T14:05:25 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T14:05:25 [Proxy] Response is being buffered
+2011-01-12T14:05:25 [Proxy] Responding '200 OK '
+2011-01-12T14:05:25 **********************************************************************************
+2011-01-12T14:05:25 **********************************************************************************
+2011-01-12T14:05:25 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T14:05:25 [Rule 0] Input: /other/blog/headlines
+2011-01-12T14:05:25 [Rule 0] Rule Pattern Matched
+2011-01-12T14:05:25 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T14:05:25 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T14:05:25 **********************************************************************************
+2011-01-12T14:05:25 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T14:05:25 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:05:25 [Proxy] Received '200 OK '
+2011-01-12T14:05:25 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T14:05:25 [Proxy] Response is being buffered
+2011-01-12T14:05:25 [Proxy] Responding '200 OK '
+2011-01-12T14:05:25 **********************************************************************************
+2011-01-12T14:05:29 **********************************************************************************
+2011-01-12T14:05:29 [Rewrite] Input: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T14:05:29 [Rule 0] Input: /authenticatedOther/shop/module
+2011-01-12T14:05:29 [Rule 1] Input: /authenticatedOther/shop/module
+2011-01-12T14:05:29 [Rule 1] Rule Pattern Matched
+2011-01-12T14:05:29 [Rewrite] Output: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T14:05:29 **********************************************************************************
+2011-01-12T14:05:29 **********************************************************************************
+2011-01-12T14:05:29 [Rewrite] Input: http://localhost:8883/favicon.ico
+2011-01-12T14:05:29 [Rule 0] Input: /favicon.ico
+2011-01-12T14:05:29 [Rule 1] Input: /favicon.ico
+2011-01-12T14:05:29 [Rewrite] Output: http://localhost:8883/favicon.ico
+2011-01-12T14:05:29 **********************************************************************************
+2011-01-12T14:05:43 **********************************************************************************
+2011-01-12T14:05:43 [Rewrite] Input: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T14:05:43 [Rule 0] Input: /authenticatedOther/shop/module
+2011-01-12T14:05:43 [Rule 1] Input: /authenticatedOther/shop/module
+2011-01-12T14:05:43 [Rule 1] Rule Pattern Matched
+2011-01-12T14:05:43 [Rewrite] Output: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T14:05:43 **********************************************************************************
+2011-01-12T14:05:43 **********************************************************************************
+2011-01-12T14:05:43 [Rewrite] Input: http://localhost:8883/favicon.ico
+2011-01-12T14:05:43 [Rule 0] Input: /favicon.ico
+2011-01-12T14:05:43 [Rule 1] Input: /favicon.ico
+2011-01-12T14:05:43 [Rewrite] Output: http://localhost:8883/favicon.ico
+2011-01-12T14:05:43 **********************************************************************************
+2011-01-12T14:05:46 **********************************************************************************
+2011-01-12T14:05:46 [Rewrite] Input: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T14:05:46 [Rule 0] Input: /authenticatedOther/shop/module
+2011-01-12T14:05:46 [Rule 1] Input: /authenticatedOther/shop/module
+2011-01-12T14:05:46 [Rule 1] Rule Pattern Matched
+2011-01-12T14:05:46 [Rewrite] Output: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T14:05:46 **********************************************************************************
+2011-01-12T14:05:46 **********************************************************************************
+2011-01-12T14:05:46 [Rewrite] Input: http://localhost:8883/favicon.ico
+2011-01-12T14:05:46 [Rule 0] Input: /favicon.ico
+2011-01-12T14:05:46 [Rule 1] Input: /favicon.ico
+2011-01-12T14:05:46 [Rewrite] Output: http://localhost:8883/favicon.ico
+2011-01-12T14:05:46 **********************************************************************************
+2011-01-12T14:06:14 **********************************************************************************
+2011-01-12T14:06:14 [Rewrite] Input: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T14:06:14 [Rule 0] Input: /authenticatedOther/shop/module
+2011-01-12T14:06:14 [Rule 1] Input: /authenticatedOther/shop/module
+2011-01-12T14:06:14 [Rule 1] Rule Pattern Matched
+2011-01-12T14:07:20 [Rewrite] Output: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T14:07:20 **********************************************************************************
+2011-01-12T14:07:20 **********************************************************************************
+2011-01-12T14:07:20 [Rewrite] Input: http://localhost:8883/favicon.ico
+2011-01-12T14:07:20 [Rule 0] Input: /favicon.ico
+2011-01-12T14:07:20 [Rule 1] Input: /favicon.ico
+2011-01-12T14:07:20 [Rewrite] Output: http://localhost:8883/favicon.ico
+2011-01-12T14:07:20 **********************************************************************************
+2011-01-12T14:12:13 **********************************************************************************
+2011-01-12T14:12:13 [Rewrite] Input: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T14:12:13 [Rule 0] Input: /authenticatedOther/shop/module
+2011-01-12T14:12:13 [Rule 1] Input: /authenticatedOther/shop/module
+2011-01-12T14:12:13 [Rule 1] Rule Pattern Matched
+2011-01-12T14:14:10 [Rewrite] Output: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T14:14:10 **********************************************************************************
+2011-01-12T14:14:10 **********************************************************************************
+2011-01-12T14:14:10 [Rewrite] Input: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T14:14:10 [Rule 0] Input: /authenticatedOther/shop/module
+2011-01-12T14:14:10 [Rule 1] Input: /authenticatedOther/shop/module
+2011-01-12T14:14:10 [Rule 1] Rule Pattern Matched
+2011-01-12T14:14:13 [Rewrite] Output: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T14:14:13 **********************************************************************************
+2011-01-12T14:14:13 **********************************************************************************
+2011-01-12T14:14:13 [Rewrite] Input: http://localhost:8883/favicon.ico
+2011-01-12T14:14:13 [Rule 0] Input: /favicon.ico
+2011-01-12T14:14:13 [Rule 1] Input: /favicon.ico
+2011-01-12T14:14:13 [Rewrite] Output: http://localhost:8883/favicon.ico
+2011-01-12T14:14:13 **********************************************************************************
+2011-01-12T14:18:05 **********************************************************************************
+2011-01-12T14:18:05 [Rewrite] Input: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T14:18:05 [Rule 0] Input: /authenticatedOther/shop/module
+2011-01-12T14:18:05 [Rule 1] Input: /authenticatedOther/shop/module
+2011-01-12T14:18:05 [Rule 1] Rule Pattern Matched
+2011-01-12T14:18:21 [Rewrite] Output: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T14:18:21 **********************************************************************************
+2011-01-12T14:18:21 **********************************************************************************
+2011-01-12T14:18:21 [Rewrite] Input: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T14:18:21 [Rule 0] Input: /authenticatedOther/shop/module
+2011-01-12T14:18:21 [Rule 1] Input: /authenticatedOther/shop/module
+2011-01-12T14:18:21 [Rule 1] Rule Pattern Matched
+2011-01-12T14:18:25 [Rewrite] Output: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T14:18:25 **********************************************************************************
+2011-01-12T14:18:25 **********************************************************************************
+2011-01-12T14:18:25 [Rewrite] Input: http://localhost:8883/favicon.ico
+2011-01-12T14:18:25 [Rule 0] Input: /favicon.ico
+2011-01-12T14:18:25 [Rule 1] Input: /favicon.ico
+2011-01-12T14:18:25 [Rewrite] Output: http://localhost:8883/favicon.ico
+2011-01-12T14:18:25 **********************************************************************************
+2011-01-12T14:18:55 **********************************************************************************
+2011-01-12T14:18:55 [Rewrite] Input: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T14:18:55 [Rule 0] Input: /authenticatedOther/shop/module
+2011-01-12T14:18:55 [Rule 1] Input: /authenticatedOther/shop/module
+2011-01-12T14:18:55 [Rule 1] Rule Pattern Matched
+2011-01-12T14:19:16 [Rewrite] Output: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T14:19:16 **********************************************************************************
+2011-01-12T14:19:16 **********************************************************************************
+2011-01-12T14:19:16 [Rewrite] Input: http://localhost:8883/favicon.ico
+2011-01-12T14:19:16 [Rule 0] Input: /favicon.ico
+2011-01-12T14:19:16 [Rule 1] Input: /favicon.ico
+2011-01-12T14:19:16 [Rewrite] Output: http://localhost:8883/favicon.ico
+2011-01-12T14:19:16 **********************************************************************************
+**********************************************************************************
+Logging started on 2011-01-12T14:22:50
+**********************************************************************************
+**********************************************************************************
+Logging started on 2011-01-12T14:22:55
+**********************************************************************************
+2011-01-12T14:22:55 **********************************************************************************
+2011-01-12T14:22:55 [Rewrite] Input: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T14:22:55 [Rule 0] Input: /authenticatedOther/shop/module
+2011-01-12T14:22:55 [Rule 1] Input: /authenticatedOther/shop/module
+2011-01-12T14:22:55 [Rule 1] Rule Pattern Matched
+2011-01-12T14:22:55 [Rule 1] Output: http://localhost:8181/shop/module
+2011-01-12T14:22:55 [Rewrite] Proxy: http://localhost:8181/shop/module
+2011-01-12T14:22:55 **********************************************************************************
+2011-01-12T14:22:55 [Proxy] Request: http://localhost:8181/shop/module
+2011-01-12T14:22:55 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:22:55 [Proxy] Received '200 OK '
+2011-01-12T14:22:55 [Proxy] Response: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T14:22:55 [Proxy] Response is being buffered
+2011-01-12T14:22:55 [Proxy] Responding '200 OK '
+2011-01-12T14:22:55 **********************************************************************************
+2011-01-12T14:22:55 **********************************************************************************
+2011-01-12T14:22:55 [Rewrite] Input: http://localhost:8883/favicon.ico
+2011-01-12T14:22:55 [Rule 0] Input: /favicon.ico
+2011-01-12T14:22:55 [Rule 1] Input: /favicon.ico
+2011-01-12T14:22:55 [Rewrite] Output: http://localhost:8883/favicon.ico
+2011-01-12T14:22:55 **********************************************************************************
+2011-01-12T14:23:01 **********************************************************************************
+2011-01-12T14:23:01 [Rewrite] Input: http://localhost:8883/
+2011-01-12T14:23:01 [Rule 0] Input: /
+2011-01-12T14:23:01 [Rule 1] Input: /
+2011-01-12T14:23:01 [Rewrite] Output: http://localhost:8883/
+2011-01-12T14:23:01 **********************************************************************************
+2011-01-12T14:23:02 **********************************************************************************
+2011-01-12T14:23:02 [Rewrite] Input: http://localhost:8883/favicon.ico
+2011-01-12T14:23:02 [Rule 0] Input: /favicon.ico
+2011-01-12T14:23:02 [Rule 1] Input: /favicon.ico
+2011-01-12T14:23:02 [Rewrite] Output: http://localhost:8883/favicon.ico
+2011-01-12T14:23:02 **********************************************************************************
+2011-01-12T14:23:02 **********************************************************************************
+2011-01-12T14:23:02 [Rewrite] Input: http://localhost:8883/other/shop/module/
+2011-01-12T14:23:02 [Rule 0] Input: /other/shop/module/
+2011-01-12T14:23:02 [Rule 0] Rule Pattern Matched
+2011-01-12T14:23:02 [Rule 0] Output: http://localhost:8181/shop/module/
+2011-01-12T14:23:02 [Rewrite] Proxy: http://localhost:8181/shop/module/
+2011-01-12T14:23:02 **********************************************************************************
+2011-01-12T14:23:02 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T14:23:02 [Rule 0] Input: /other/blog/headlines
+2011-01-12T14:23:02 **********************************************************************************
+2011-01-12T14:23:02 [Proxy] Request: http://localhost:8181/shop/module/
+2011-01-12T14:23:02 [Rule 0] Rule Pattern Matched
+2011-01-12T14:23:02 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T14:23:02 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T14:23:02 **********************************************************************************
+2011-01-12T14:23:02 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T14:23:02 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:23:02 [Proxy] Received '200 OK '
+2011-01-12T14:23:02 [Proxy] Response: http://localhost:8883/other/shop/module/
+2011-01-12T14:23:02 [Proxy] Response is being buffered
+2011-01-12T14:23:02 [Proxy] Responding '200 OK '
+2011-01-12T14:23:02 **********************************************************************************
+2011-01-12T14:23:02 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:23:02 [Proxy] Received '200 OK '
+2011-01-12T14:23:02 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T14:23:02 [Proxy] Response is being buffered
+2011-01-12T14:23:02 [Proxy] Responding '200 OK '
+2011-01-12T14:23:02 **********************************************************************************
+2011-01-12T14:23:03 **********************************************************************************
+2011-01-12T14:23:03 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T14:23:03 [Rule 0] Input: /other/blog/headlines
+2011-01-12T14:23:03 [Rule 0] Rule Pattern Matched
+2011-01-12T14:23:03 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T14:23:03 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T14:23:03 **********************************************************************************
+2011-01-12T14:23:03 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T14:23:03 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:23:03 [Proxy] Received '200 OK '
+2011-01-12T14:23:03 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T14:23:03 [Proxy] Response is being buffered
+2011-01-12T14:23:03 [Proxy] Responding '200 OK '
+2011-01-12T14:23:03 **********************************************************************************
+2011-01-12T14:23:03 **********************************************************************************
+2011-01-12T14:23:03 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T14:23:03 [Rule 0] Input: /other/blog/headlines
+2011-01-12T14:23:03 [Rule 0] Rule Pattern Matched
+2011-01-12T14:23:03 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T14:23:03 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T14:23:03 **********************************************************************************
+2011-01-12T14:23:03 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T14:23:03 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:23:03 [Proxy] Received '200 OK '
+2011-01-12T14:23:03 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T14:23:03 [Proxy] Response is being buffered
+2011-01-12T14:23:03 [Proxy] Responding '200 OK '
+2011-01-12T14:23:03 **********************************************************************************
+2011-01-12T14:23:04 **********************************************************************************
+2011-01-12T14:23:04 [Rewrite] Input: http://localhost:8883/authentication/logout
+2011-01-12T14:23:04 [Rule 0] Input: /authentication/logout
+2011-01-12T14:23:04 [Rule 1] Input: /authentication/logout
+2011-01-12T14:23:04 [Rewrite] Output: http://localhost:8883/authentication/logout
+2011-01-12T14:23:04 **********************************************************************************
+2011-01-12T14:23:04 **********************************************************************************
+2011-01-12T14:23:04 [Rewrite] Input: http://localhost:8883/
+2011-01-12T14:23:04 [Rule 0] Input: /
+2011-01-12T14:23:04 [Rule 1] Input: /
+2011-01-12T14:23:04 [Rewrite] Output: http://localhost:8883/
+2011-01-12T14:23:04 **********************************************************************************
+2011-01-12T14:23:04 **********************************************************************************
+2011-01-12T14:23:04 [Rewrite] Input: http://localhost:8883/other/shop/module/
+2011-01-12T14:23:04 [Rule 0] Input: /other/shop/module/
+2011-01-12T14:23:04 [Rule 0] Rule Pattern Matched
+2011-01-12T14:23:04 [Rule 0] Output: http://localhost:8181/shop/module/
+2011-01-12T14:23:04 [Rewrite] Proxy: http://localhost:8181/shop/module/
+2011-01-12T14:23:04 **********************************************************************************
+2011-01-12T14:23:04 [Proxy] Request: http://localhost:8181/shop/module/
+2011-01-12T14:23:04 **********************************************************************************
+2011-01-12T14:23:04 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T14:23:04 [Rule 0] Input: /other/blog/headlines
+2011-01-12T14:23:04 [Rule 0] Rule Pattern Matched
+2011-01-12T14:23:04 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T14:23:04 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T14:23:04 **********************************************************************************
+2011-01-12T14:23:04 [Rewrite] Input: http://localhost:8883/favicon.ico
+2011-01-12T14:23:04 [Rule 0] Input: /favicon.ico
+2011-01-12T14:23:04 [Rule 1] Input: /favicon.ico
+2011-01-12T14:23:04 [Rewrite] Output: http://localhost:8883/favicon.ico
+2011-01-12T14:23:04 **********************************************************************************
+2011-01-12T14:23:04 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:23:04 [Proxy] Received '200 OK '
+2011-01-12T14:23:04 [Proxy] Response: http://localhost:8883/other/shop/module/
+2011-01-12T14:23:04 [Proxy] Response is being buffered
+2011-01-12T14:23:04 [Proxy] Responding '200 OK '
+2011-01-12T14:23:04 **********************************************************************************
+2011-01-12T14:23:04 **********************************************************************************
+2011-01-12T14:23:04 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T14:23:04 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:23:04 [Proxy] Received '200 OK '
+2011-01-12T14:23:04 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T14:23:04 [Proxy] Response is being buffered
+2011-01-12T14:23:04 [Proxy] Responding '200 OK '
+2011-01-12T14:23:04 **********************************************************************************
+2011-01-12T14:23:04 **********************************************************************************
+2011-01-12T14:23:04 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T14:23:04 [Rule 0] Input: /other/blog/headlines
+2011-01-12T14:23:04 [Rule 0] Rule Pattern Matched
+2011-01-12T14:23:04 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T14:23:04 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T14:23:04 **********************************************************************************
+2011-01-12T14:23:04 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T14:23:04 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:23:04 [Proxy] Received '200 OK '
+2011-01-12T14:23:04 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T14:23:04 [Proxy] Response is being buffered
+2011-01-12T14:23:04 [Proxy] Responding '200 OK '
+2011-01-12T14:23:04 **********************************************************************************
+2011-01-12T14:23:04 **********************************************************************************
+2011-01-12T14:23:04 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T14:23:04 [Rule 0] Input: /other/blog/headlines
+2011-01-12T14:23:04 [Rule 0] Rule Pattern Matched
+2011-01-12T14:23:04 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T14:23:04 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T14:23:04 **********************************************************************************
+2011-01-12T14:23:04 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T14:23:04 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:23:04 [Proxy] Received '200 OK '
+2011-01-12T14:23:04 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T14:23:04 [Proxy] Response is being buffered
+2011-01-12T14:23:04 [Proxy] Responding '200 OK '
+2011-01-12T14:23:04 **********************************************************************************
+2011-01-12T14:23:05 **********************************************************************************
+2011-01-12T14:23:05 [Rewrite] Input: http://localhost:8883/authentication/login
+2011-01-12T14:23:05 [Rule 0] Input: /authentication/login
+2011-01-12T14:23:05 [Rule 1] Input: /authentication/login
+2011-01-12T14:23:05 [Rewrite] Output: http://localhost:8883/authentication/login
+2011-01-12T14:23:05 **********************************************************************************
+2011-01-12T14:23:05 **********************************************************************************
+2011-01-12T14:23:05 [Rewrite] Input: http://localhost:8883/authentication/content/scripts/lib/underscore.js
+2011-01-12T14:23:05 [Rule 0] Input: /authentication/content/scripts/lib/underscore.js
+2011-01-12T14:23:05 [Rule 1] Input: /authentication/content/scripts/lib/underscore.js
+2011-01-12T14:23:05 [Rewrite] Output: http://localhost:8883/authentication/content/scripts/lib/underscore.js
+2011-01-12T14:23:05 **********************************************************************************
+2011-01-12T14:23:05 **********************************************************************************
+2011-01-12T14:23:05 [Rewrite] Input: http://localhost:8883/favicon.ico
+2011-01-12T14:23:05 [Rule 0] Input: /favicon.ico
+2011-01-12T14:23:05 [Rule 1] Input: /favicon.ico
+2011-01-12T14:23:05 [Rewrite] Output: http://localhost:8883/favicon.ico
+2011-01-12T14:23:05 **********************************************************************************
+2011-01-12T14:23:11 **********************************************************************************
+2011-01-12T14:23:11 [Rewrite] Input: http://localhost:8883/authentication/loginsubmit
+2011-01-12T14:23:11 [Rule 0] Input: /authentication/loginsubmit
+2011-01-12T14:23:11 [Rule 1] Input: /authentication/loginsubmit
+2011-01-12T14:23:11 [Rewrite] Output: http://localhost:8883/authentication/loginsubmit
+2011-01-12T14:23:11 **********************************************************************************
+2011-01-12T14:23:11 **********************************************************************************
+2011-01-12T14:23:11 [Rewrite] Input: http://localhost:8883/
+2011-01-12T14:23:11 [Rule 0] Input: /
+2011-01-12T14:23:11 [Rule 1] Input: /
+2011-01-12T14:23:11 [Rewrite] Output: http://localhost:8883/
+2011-01-12T14:23:11 **********************************************************************************
+2011-01-12T14:23:12 **********************************************************************************
+2011-01-12T14:23:12 [Rewrite] Input: http://localhost:8883/favicon.ico
+2011-01-12T14:23:12 [Rule 0] Input: /favicon.ico
+2011-01-12T14:23:12 [Rule 1] Input: /favicon.ico
+2011-01-12T14:23:12 [Rewrite] Output: http://localhost:8883/favicon.ico
+2011-01-12T14:23:12 **********************************************************************************
+2011-01-12T14:23:12 **********************************************************************************
+2011-01-12T14:23:12 [Rewrite] Input: http://localhost:8883/other/shop/module/
+2011-01-12T14:23:12 [Rule 0] Input: /other/shop/module/
+2011-01-12T14:23:12 [Rule 0] Rule Pattern Matched
+2011-01-12T14:23:12 [Rule 0] Output: http://localhost:8181/shop/module/
+2011-01-12T14:23:12 [Rewrite] Proxy: http://localhost:8181/shop/module/
+2011-01-12T14:23:12 **********************************************************************************
+2011-01-12T14:23:12 [Proxy] Request: http://localhost:8181/shop/module/
+2011-01-12T14:23:12 **********************************************************************************
+2011-01-12T14:23:12 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T14:23:12 [Rule 0] Input: /other/blog/headlines
+2011-01-12T14:23:12 [Rule 0] Rule Pattern Matched
+2011-01-12T14:23:12 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T14:23:12 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T14:23:12 **********************************************************************************
+2011-01-12T14:23:12 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T14:23:12 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:23:12 [Proxy] Received '200 OK '
+2011-01-12T14:23:12 [Proxy] Response: http://localhost:8883/other/shop/module/
+2011-01-12T14:23:12 [Proxy] Response is being buffered
+2011-01-12T14:23:12 [Proxy] Responding '200 OK '
+2011-01-12T14:23:12 **********************************************************************************
+2011-01-12T14:23:12 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:23:12 [Proxy] Received '200 OK '
+2011-01-12T14:23:12 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T14:23:12 [Proxy] Response is being buffered
+2011-01-12T14:23:12 [Proxy] Responding '200 OK '
+2011-01-12T14:23:12 **********************************************************************************
+2011-01-12T14:23:12 **********************************************************************************
+2011-01-12T14:23:12 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T14:23:12 [Rule 0] Input: /other/blog/headlines
+2011-01-12T14:23:12 [Rule 0] Rule Pattern Matched
+2011-01-12T14:23:12 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T14:23:12 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T14:23:12 **********************************************************************************
+2011-01-12T14:23:12 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T14:23:12 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:23:12 [Proxy] Received '200 OK '
+2011-01-12T14:23:12 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T14:23:12 [Proxy] Response is being buffered
+2011-01-12T14:23:12 [Proxy] Responding '200 OK '
+2011-01-12T14:23:12 **********************************************************************************
+2011-01-12T14:23:12 **********************************************************************************
+2011-01-12T14:23:12 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T14:23:12 [Rule 0] Input: /other/blog/headlines
+2011-01-12T14:23:12 [Rule 0] Rule Pattern Matched
+2011-01-12T14:23:12 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T14:23:12 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T14:23:12 **********************************************************************************
+2011-01-12T14:23:12 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T14:23:12 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:23:12 [Proxy] Received '200 OK '
+2011-01-12T14:23:12 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T14:23:12 [Proxy] Response is being buffered
+2011-01-12T14:23:12 [Proxy] Responding '200 OK '
+2011-01-12T14:23:12 **********************************************************************************
+2011-01-12T14:23:16 **********************************************************************************
+2011-01-12T14:23:16 [Rewrite] Input: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T14:23:16 [Rule 0] Input: /authenticatedOther/shop/module
+2011-01-12T14:23:16 [Rule 1] Input: /authenticatedOther/shop/module
+2011-01-12T14:23:16 [Rule 1] Rule Pattern Matched
+2011-01-12T14:23:16 [Rewrite] Output: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T14:23:16 **********************************************************************************
+2011-01-12T14:23:16 **********************************************************************************
+2011-01-12T14:23:16 [Rewrite] Input: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T14:23:16 [Rule 0] Input: /authenticatedOther/shop/module
+2011-01-12T14:23:16 [Rule 1] Input: /authenticatedOther/shop/module
+2011-01-12T14:23:16 [Rule 1] Rule Pattern Matched
+2011-01-12T14:23:16 [Rewrite] Output: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T14:23:16 **********************************************************************************
+2011-01-12T14:23:16 **********************************************************************************
+2011-01-12T14:23:16 [Rewrite] Input: http://localhost:8883/favicon.ico
+2011-01-12T14:23:16 [Rule 0] Input: /favicon.ico
+2011-01-12T14:23:16 [Rule 1] Input: /favicon.ico
+2011-01-12T14:23:16 [Rewrite] Output: http://localhost:8883/favicon.ico
+2011-01-12T14:23:16 **********************************************************************************
+2011-01-12T14:23:22 **********************************************************************************
+2011-01-12T14:23:22 [Rewrite] Input: http://localhost:8883/
+2011-01-12T14:23:22 [Rule 0] Input: /
+2011-01-12T14:23:22 [Rule 1] Input: /
+2011-01-12T14:23:22 [Rewrite] Output: http://localhost:8883/
+2011-01-12T14:23:22 **********************************************************************************
+2011-01-12T14:23:22 **********************************************************************************
+2011-01-12T14:23:22 [Rewrite] Input: http://localhost:8883/favicon.ico
+2011-01-12T14:23:22 [Rule 0] Input: /favicon.ico
+2011-01-12T14:23:22 [Rule 1] Input: /favicon.ico
+2011-01-12T14:23:22 [Rewrite] Output: http://localhost:8883/favicon.ico
+2011-01-12T14:23:22 **********************************************************************************
+2011-01-12T14:23:22 **********************************************************************************
+2011-01-12T14:23:22 [Rewrite] Input: http://localhost:8883/other/shop/module/
+2011-01-12T14:23:22 [Rule 0] Input: /other/shop/module/
+2011-01-12T14:23:22 [Rule 0] Rule Pattern Matched
+2011-01-12T14:23:22 [Rule 0] Output: http://localhost:8181/shop/module/
+2011-01-12T14:23:22 [Rewrite] Proxy: http://localhost:8181/shop/module/
+2011-01-12T14:23:22 **********************************************************************************
+2011-01-12T14:23:22 [Proxy] Request: http://localhost:8181/shop/module/
+2011-01-12T14:23:22 **********************************************************************************
+2011-01-12T14:23:22 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T14:23:22 [Rule 0] Input: /other/blog/headlines
+2011-01-12T14:23:22 [Rule 0] Rule Pattern Matched
+2011-01-12T14:23:22 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T14:23:22 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T14:23:22 **********************************************************************************
+2011-01-12T14:23:22 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T14:23:22 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:23:22 [Proxy] Received '200 OK '
+2011-01-12T14:23:22 [Proxy] Response: http://localhost:8883/other/shop/module/
+2011-01-12T14:23:22 [Proxy] Response is being buffered
+2011-01-12T14:23:22 [Proxy] Responding '200 OK '
+2011-01-12T14:23:22 **********************************************************************************
+2011-01-12T14:23:22 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:23:22 [Proxy] Received '200 OK '
+2011-01-12T14:23:22 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T14:23:22 [Proxy] Response is being buffered
+2011-01-12T14:23:22 [Proxy] Responding '200 OK '
+2011-01-12T14:23:22 **********************************************************************************
+2011-01-12T14:23:22 **********************************************************************************
+2011-01-12T14:23:22 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T14:23:22 [Rule 0] Input: /other/blog/headlines
+2011-01-12T14:23:22 [Rule 0] Rule Pattern Matched
+2011-01-12T14:23:22 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T14:23:22 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T14:23:22 **********************************************************************************
+2011-01-12T14:23:22 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T14:23:22 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:23:22 [Proxy] Received '200 OK '
+2011-01-12T14:23:22 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T14:23:22 [Proxy] Response is being buffered
+2011-01-12T14:23:22 [Proxy] Responding '200 OK '
+2011-01-12T14:23:22 **********************************************************************************
+2011-01-12T14:23:22 **********************************************************************************
+2011-01-12T14:23:22 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T14:23:22 [Rule 0] Input: /other/blog/headlines
+2011-01-12T14:23:22 [Rule 0] Rule Pattern Matched
+2011-01-12T14:23:22 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T14:23:22 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T14:23:22 **********************************************************************************
+2011-01-12T14:23:22 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T14:23:22 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:23:22 [Proxy] Received '200 OK '
+2011-01-12T14:23:22 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T14:23:22 [Proxy] Response is being buffered
+2011-01-12T14:23:22 [Proxy] Responding '200 OK '
+2011-01-12T14:23:22 **********************************************************************************
+2011-01-12T14:23:24 **********************************************************************************
+2011-01-12T14:23:24 [Rewrite] Input: http://localhost:8883/authentication/logout
+2011-01-12T14:23:24 [Rule 0] Input: /authentication/logout
+2011-01-12T14:23:24 [Rule 1] Input: /authentication/logout
+2011-01-12T14:23:24 [Rewrite] Output: http://localhost:8883/authentication/logout
+2011-01-12T14:23:24 **********************************************************************************
+2011-01-12T14:23:24 **********************************************************************************
+2011-01-12T14:23:24 [Rewrite] Input: http://localhost:8883/
+2011-01-12T14:23:24 [Rule 0] Input: /
+2011-01-12T14:23:24 [Rule 1] Input: /
+2011-01-12T14:23:24 [Rewrite] Output: http://localhost:8883/
+2011-01-12T14:23:24 **********************************************************************************
+2011-01-12T14:23:24 **********************************************************************************
+2011-01-12T14:23:24 [Rewrite] Input: http://localhost:8883/favicon.ico
+2011-01-12T14:23:24 [Rule 0] Input: /favicon.ico
+2011-01-12T14:23:24 [Rule 1] Input: /favicon.ico
+2011-01-12T14:23:24 [Rewrite] Output: http://localhost:8883/favicon.ico
+2011-01-12T14:23:24 **********************************************************************************
+2011-01-12T14:23:24 **********************************************************************************
+2011-01-12T14:23:24 [Rewrite] Input: http://localhost:8883/other/shop/module/
+2011-01-12T14:23:24 [Rule 0] Input: /other/shop/module/
+2011-01-12T14:23:24 [Rule 0] Rule Pattern Matched
+2011-01-12T14:23:24 [Rule 0] Output: http://localhost:8181/shop/module/
+2011-01-12T14:23:24 [Rewrite] Proxy: http://localhost:8181/shop/module/
+2011-01-12T14:23:24 **********************************************************************************
+2011-01-12T14:23:24 [Proxy] Request: http://localhost:8181/shop/module/
+2011-01-12T14:23:24 **********************************************************************************
+2011-01-12T14:23:24 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T14:23:24 [Rule 0] Input: /other/blog/headlines
+2011-01-12T14:23:24 [Rule 0] Rule Pattern Matched
+2011-01-12T14:23:24 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T14:23:24 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T14:23:24 **********************************************************************************
+2011-01-12T14:23:24 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T14:23:24 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:23:24 [Proxy] Received '200 OK '
+2011-01-12T14:23:24 [Proxy] Response: http://localhost:8883/other/shop/module/
+2011-01-12T14:23:24 [Proxy] Response is being buffered
+2011-01-12T14:23:24 [Proxy] Responding '200 OK '
+2011-01-12T14:23:24 **********************************************************************************
+2011-01-12T14:23:24 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:23:24 [Proxy] Received '200 OK '
+2011-01-12T14:23:24 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T14:23:24 [Proxy] Response is being buffered
+2011-01-12T14:23:24 [Proxy] Responding '200 OK '
+2011-01-12T14:23:24 **********************************************************************************
+2011-01-12T14:23:24 **********************************************************************************
+2011-01-12T14:23:24 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T14:23:24 [Rule 0] Input: /other/blog/headlines
+2011-01-12T14:23:24 [Rule 0] Rule Pattern Matched
+2011-01-12T14:23:24 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T14:23:24 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T14:23:24 **********************************************************************************
+2011-01-12T14:23:24 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T14:23:24 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:23:24 [Proxy] Received '200 OK '
+2011-01-12T14:23:24 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T14:23:24 [Proxy] Response is being buffered
+2011-01-12T14:23:24 [Proxy] Responding '200 OK '
+2011-01-12T14:23:24 **********************************************************************************
+2011-01-12T14:23:24 **********************************************************************************
+2011-01-12T14:23:24 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T14:23:24 [Rule 0] Input: /other/blog/headlines
+2011-01-12T14:23:24 [Rule 0] Rule Pattern Matched
+2011-01-12T14:23:24 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T14:23:24 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T14:23:24 **********************************************************************************
+2011-01-12T14:23:24 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T14:23:24 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:23:24 [Proxy] Received '200 OK '
+2011-01-12T14:23:24 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T14:23:24 [Proxy] Response is being buffered
+2011-01-12T14:23:24 [Proxy] Responding '200 OK '
+2011-01-12T14:23:24 **********************************************************************************
+2011-01-12T14:23:25 **********************************************************************************
+2011-01-12T14:23:25 [Rewrite] Input: http://localhost:8883/authentication/login
+2011-01-12T14:23:25 [Rule 0] Input: /authentication/login
+2011-01-12T14:23:25 [Rule 1] Input: /authentication/login
+2011-01-12T14:23:25 [Rewrite] Output: http://localhost:8883/authentication/login
+2011-01-12T14:23:25 **********************************************************************************
+2011-01-12T14:23:25 **********************************************************************************
+2011-01-12T14:23:25 [Rewrite] Input: http://localhost:8883/favicon.ico
+2011-01-12T14:23:25 [Rule 0] Input: /favicon.ico
+2011-01-12T14:23:25 [Rule 1] Input: /favicon.ico
+2011-01-12T14:23:25 [Rewrite] Output: http://localhost:8883/favicon.ico
+2011-01-12T14:23:25 **********************************************************************************
+2011-01-12T14:23:25 **********************************************************************************
+2011-01-12T14:23:25 [Rewrite] Input: http://localhost:8883/authentication/content/scripts/lib/underscore.js
+2011-01-12T14:23:25 [Rule 0] Input: /authentication/content/scripts/lib/underscore.js
+2011-01-12T14:23:25 [Rule 1] Input: /authentication/content/scripts/lib/underscore.js
+2011-01-12T14:23:25 [Rewrite] Output: http://localhost:8883/authentication/content/scripts/lib/underscore.js
+2011-01-12T14:23:25 **********************************************************************************
+2011-01-12T14:23:31 **********************************************************************************
+2011-01-12T14:23:31 [Rewrite] Input: http://localhost:8883/authentication/loginsubmit
+2011-01-12T14:23:31 [Rule 0] Input: /authentication/loginsubmit
+2011-01-12T14:23:31 [Rule 1] Input: /authentication/loginsubmit
+2011-01-12T14:23:31 [Rewrite] Output: http://localhost:8883/authentication/loginsubmit
+2011-01-12T14:23:31 **********************************************************************************
+2011-01-12T14:23:31 **********************************************************************************
+2011-01-12T14:23:31 [Rewrite] Input: http://localhost:8883/
+2011-01-12T14:23:31 [Rule 0] Input: /
+2011-01-12T14:23:31 [Rule 1] Input: /
+2011-01-12T14:23:31 [Rewrite] Output: http://localhost:8883/
+2011-01-12T14:23:31 **********************************************************************************
+2011-01-12T14:23:31 **********************************************************************************
+2011-01-12T14:23:31 [Rewrite] Input: http://localhost:8883/favicon.ico
+2011-01-12T14:23:31 [Rule 0] Input: /favicon.ico
+2011-01-12T14:23:31 [Rule 1] Input: /favicon.ico
+2011-01-12T14:23:31 [Rewrite] Output: http://localhost:8883/favicon.ico
+2011-01-12T14:23:31 **********************************************************************************
+2011-01-12T14:23:31 **********************************************************************************
+2011-01-12T14:23:31 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T14:23:31 [Rule 0] Input: /other/blog/headlines
+2011-01-12T14:23:31 [Rule 0] Rule Pattern Matched
+2011-01-12T14:23:31 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T14:23:31 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T14:23:31 **********************************************************************************
+2011-01-12T14:23:31 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T14:23:31 **********************************************************************************
+2011-01-12T14:23:31 [Rewrite] Input: http://localhost:8883/other/shop/module/
+2011-01-12T14:23:31 [Rule 0] Input: /other/shop/module/
+2011-01-12T14:23:31 [Rule 0] Rule Pattern Matched
+2011-01-12T14:23:31 [Rule 0] Output: http://localhost:8181/shop/module/
+2011-01-12T14:23:31 [Rewrite] Proxy: http://localhost:8181/shop/module/
+2011-01-12T14:23:31 **********************************************************************************
+2011-01-12T14:23:31 [Proxy] Request: http://localhost:8181/shop/module/
+2011-01-12T14:23:31 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:23:31 [Proxy] Received '200 OK '
+2011-01-12T14:23:31 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T14:23:31 [Proxy] Response is being buffered
+2011-01-12T14:23:31 [Proxy] Responding '200 OK '
+2011-01-12T14:23:31 **********************************************************************************
+2011-01-12T14:23:31 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:23:31 [Proxy] Received '200 OK '
+2011-01-12T14:23:31 [Proxy] Response: http://localhost:8883/other/shop/module/
+2011-01-12T14:23:31 [Proxy] Response is being buffered
+2011-01-12T14:23:31 [Proxy] Responding '200 OK '
+2011-01-12T14:23:31 **********************************************************************************
+2011-01-12T14:23:31 **********************************************************************************
+2011-01-12T14:23:31 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T14:23:31 [Rule 0] Input: /other/blog/headlines
+2011-01-12T14:23:31 [Rule 0] Rule Pattern Matched
+2011-01-12T14:23:31 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T14:23:31 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T14:23:31 **********************************************************************************
+2011-01-12T14:23:31 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T14:23:31 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:23:31 [Proxy] Received '200 OK '
+2011-01-12T14:23:31 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T14:23:31 [Proxy] Response is being buffered
+2011-01-12T14:23:31 [Proxy] Responding '200 OK '
+2011-01-12T14:23:31 **********************************************************************************
+2011-01-12T14:23:31 **********************************************************************************
+2011-01-12T14:23:31 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T14:23:31 [Rule 0] Input: /other/blog/headlines
+2011-01-12T14:23:31 [Rule 0] Rule Pattern Matched
+2011-01-12T14:23:31 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T14:23:31 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T14:23:31 **********************************************************************************
+2011-01-12T14:23:31 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T14:23:31 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:23:31 [Proxy] Received '200 OK '
+2011-01-12T14:23:31 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T14:23:31 [Proxy] Response is being buffered
+2011-01-12T14:23:31 [Proxy] Responding '200 OK '
+2011-01-12T14:23:31 **********************************************************************************
+2011-01-12T14:23:33 **********************************************************************************
+2011-01-12T14:23:33 [Rewrite] Input: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T14:23:33 [Rule 0] Input: /authenticatedOther/shop/module
+2011-01-12T14:23:33 [Rule 1] Input: /authenticatedOther/shop/module
+2011-01-12T14:23:34 [Rule 1] Rule Pattern Matched
+2011-01-12T14:23:34 [Rule 1] Output: http://localhost:8181/shop/module
+2011-01-12T14:23:34 [Rewrite] Proxy: http://localhost:8181/shop/module
+2011-01-12T14:23:34 **********************************************************************************
+2011-01-12T14:23:34 [Proxy] Request: http://localhost:8181/shop/module
+2011-01-12T14:23:34 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:23:34 [Proxy] Received '200 OK '
+2011-01-12T14:23:34 [Proxy] Response: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T14:23:34 [Proxy] Response is being buffered
+2011-01-12T14:23:34 [Proxy] Responding '200 OK '
+2011-01-12T14:23:34 **********************************************************************************
+2011-01-12T14:23:34 **********************************************************************************
+2011-01-12T14:23:34 [Rewrite] Input: http://localhost:8883/favicon.ico
+2011-01-12T14:23:34 [Rule 0] Input: /favicon.ico
+2011-01-12T14:23:34 [Rule 1] Input: /favicon.ico
+2011-01-12T14:23:34 [Rewrite] Output: http://localhost:8883/favicon.ico
+2011-01-12T14:23:34 **********************************************************************************
+2011-01-12T14:24:01 **********************************************************************************
+2011-01-12T14:24:01 [Rewrite] Input: http://localhost:8883/
+2011-01-12T14:24:01 [Rule 0] Input: /
+2011-01-12T14:24:01 [Rule 1] Input: /
+2011-01-12T14:24:01 [Rewrite] Output: http://localhost:8883/
+2011-01-12T14:24:01 **********************************************************************************
+2011-01-12T14:24:01 **********************************************************************************
+2011-01-12T14:24:01 [Rewrite] Input: http://localhost:8883/favicon.ico
+2011-01-12T14:24:01 **********************************************************************************
+2011-01-12T14:24:01 [Rewrite] Input: http://localhost:8883/other/shop/module/
+2011-01-12T14:24:01 [Rule 0] Input: /other/shop/module/
+2011-01-12T14:24:01 [Rule 0] Rule Pattern Matched
+2011-01-12T14:24:01 [Rule 0] Output: http://localhost:8181/shop/module/
+2011-01-12T14:24:01 [Rewrite] Proxy: http://localhost:8181/shop/module/
+2011-01-12T14:24:01 **********************************************************************************
+2011-01-12T14:24:01 [Proxy] Request: http://localhost:8181/shop/module/
+2011-01-12T14:24:01 **********************************************************************************
+2011-01-12T14:24:01 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T14:24:01 [Rule 0] Input: /other/blog/headlines
+2011-01-12T14:24:01 [Rule 0] Rule Pattern Matched
+2011-01-12T14:24:01 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T14:24:01 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T14:24:01 **********************************************************************************
+2011-01-12T14:24:01 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T14:24:01 [Rule 0] Input: /favicon.ico
+2011-01-12T14:24:01 [Rule 1] Input: /favicon.ico
+2011-01-12T14:24:01 [Rewrite] Output: http://localhost:8883/favicon.ico
+2011-01-12T14:24:01 **********************************************************************************
+2011-01-12T14:24:01 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:24:01 [Proxy] Received '200 OK '
+2011-01-12T14:24:01 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T14:24:01 [Proxy] Response is being buffered
+2011-01-12T14:24:01 [Proxy] Responding '200 OK '
+2011-01-12T14:24:01 **********************************************************************************
+2011-01-12T14:24:01 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:24:01 [Proxy] Received '200 OK '
+2011-01-12T14:24:01 [Proxy] Response: http://localhost:8883/other/shop/module/
+2011-01-12T14:24:01 [Proxy] Response is being buffered
+2011-01-12T14:24:01 [Proxy] Responding '200 OK '
+2011-01-12T14:24:01 **********************************************************************************
+2011-01-12T14:24:01 **********************************************************************************
+2011-01-12T14:24:01 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T14:24:01 [Rule 0] Input: /other/blog/headlines
+2011-01-12T14:24:01 [Rule 0] Rule Pattern Matched
+2011-01-12T14:24:01 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T14:24:01 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T14:24:01 **********************************************************************************
+2011-01-12T14:24:01 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T14:24:01 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:24:01 [Proxy] Received '200 OK '
+2011-01-12T14:24:01 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T14:24:01 [Proxy] Response is being buffered
+2011-01-12T14:24:01 [Proxy] Responding '200 OK '
+2011-01-12T14:24:01 **********************************************************************************
+2011-01-12T14:24:01 **********************************************************************************
+2011-01-12T14:24:01 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T14:24:01 [Rule 0] Input: /other/blog/headlines
+2011-01-12T14:24:01 [Rule 0] Rule Pattern Matched
+2011-01-12T14:24:01 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T14:24:01 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T14:24:01 **********************************************************************************
+2011-01-12T14:24:01 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T14:24:01 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:24:01 [Proxy] Received '200 OK '
+2011-01-12T14:24:01 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T14:24:01 [Proxy] Response is being buffered
+2011-01-12T14:24:01 [Proxy] Responding '200 OK '
+2011-01-12T14:24:01 **********************************************************************************
+2011-01-12T14:24:02 **********************************************************************************
+2011-01-12T14:24:02 [Rewrite] Input: http://localhost:8883/authentication/logout
+2011-01-12T14:24:02 [Rule 0] Input: /authentication/logout
+2011-01-12T14:24:02 [Rule 1] Input: /authentication/logout
+2011-01-12T14:24:02 [Rewrite] Output: http://localhost:8883/authentication/logout
+2011-01-12T14:24:02 **********************************************************************************
+2011-01-12T14:24:02 **********************************************************************************
+2011-01-12T14:24:02 [Rewrite] Input: http://localhost:8883/
+2011-01-12T14:24:02 [Rule 0] Input: /
+2011-01-12T14:24:02 [Rule 1] Input: /
+2011-01-12T14:24:02 [Rewrite] Output: http://localhost:8883/
+2011-01-12T14:24:02 **********************************************************************************
+2011-01-12T14:24:03 **********************************************************************************
+2011-01-12T14:24:03 [Rewrite] Input: http://localhost:8883/favicon.ico
+2011-01-12T14:24:03 [Rule 0] Input: /favicon.ico
+2011-01-12T14:24:03 [Rule 1] Input: /favicon.ico
+2011-01-12T14:24:03 [Rewrite] Output: http://localhost:8883/favicon.ico
+2011-01-12T14:24:03 **********************************************************************************
+2011-01-12T14:24:03 **********************************************************************************
+2011-01-12T14:24:03 **********************************************************************************
+2011-01-12T14:24:03 [Rewrite] Input: http://localhost:8883/other/shop/module/
+2011-01-12T14:24:03 [Rule 0] Input: /other/shop/module/
+2011-01-12T14:24:03 [Rule 0] Rule Pattern Matched
+2011-01-12T14:24:03 [Rule 0] Output: http://localhost:8181/shop/module/
+2011-01-12T14:24:03 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T14:24:03 [Rewrite] Proxy: http://localhost:8181/shop/module/
+2011-01-12T14:24:03 **********************************************************************************
+2011-01-12T14:24:03 [Proxy] Request: http://localhost:8181/shop/module/
+2011-01-12T14:24:03 [Rule 0] Input: /other/blog/headlines
+2011-01-12T14:24:03 [Rule 0] Rule Pattern Matched
+2011-01-12T14:24:03 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T14:24:03 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T14:24:03 **********************************************************************************
+2011-01-12T14:24:03 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T14:24:03 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:24:03 [Proxy] Received '200 OK '
+2011-01-12T14:24:03 [Proxy] Response: http://localhost:8883/other/shop/module/
+2011-01-12T14:24:03 [Proxy] Response is being buffered
+2011-01-12T14:24:03 [Proxy] Responding '200 OK '
+2011-01-12T14:24:03 **********************************************************************************
+2011-01-12T14:24:03 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:24:03 [Proxy] Received '200 OK '
+2011-01-12T14:24:03 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T14:24:03 [Proxy] Response is being buffered
+2011-01-12T14:24:03 [Proxy] Responding '200 OK '
+2011-01-12T14:24:03 **********************************************************************************
+2011-01-12T14:24:03 **********************************************************************************
+2011-01-12T14:24:03 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T14:24:03 [Rule 0] Input: /other/blog/headlines
+2011-01-12T14:24:03 [Rule 0] Rule Pattern Matched
+2011-01-12T14:24:03 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T14:24:03 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T14:24:03 **********************************************************************************
+2011-01-12T14:24:03 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T14:24:03 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:24:03 [Proxy] Received '200 OK '
+2011-01-12T14:24:03 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T14:24:03 [Proxy] Response is being buffered
+2011-01-12T14:24:03 [Proxy] Responding '200 OK '
+2011-01-12T14:24:03 **********************************************************************************
+2011-01-12T14:24:03 **********************************************************************************
+2011-01-12T14:24:03 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T14:24:03 [Rule 0] Input: /other/blog/headlines
+2011-01-12T14:24:03 [Rule 0] Rule Pattern Matched
+2011-01-12T14:24:03 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T14:24:03 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T14:24:03 **********************************************************************************
+2011-01-12T14:24:03 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T14:24:03 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:24:03 [Proxy] Received '200 OK '
+2011-01-12T14:24:03 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T14:24:03 [Proxy] Response is being buffered
+2011-01-12T14:24:03 [Proxy] Responding '200 OK '
+2011-01-12T14:24:03 **********************************************************************************
+2011-01-12T14:24:07 **********************************************************************************
+2011-01-12T14:24:07 [Rewrite] Input: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T14:24:07 [Rule 0] Input: /authenticatedOther/shop/module
+2011-01-12T14:24:07 [Rule 1] Input: /authenticatedOther/shop/module
+2011-01-12T14:24:07 [Rule 1] Rule Pattern Matched
+2011-01-12T14:24:07 [Rewrite] Output: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T14:24:07 **********************************************************************************
+2011-01-12T14:24:07 **********************************************************************************
+2011-01-12T14:24:07 [Rewrite] Input: http://localhost:8883/favicon.ico
+2011-01-12T14:24:07 [Rule 0] Input: /favicon.ico
+2011-01-12T14:24:07 [Rule 1] Input: /favicon.ico
+2011-01-12T14:24:07 [Rewrite] Output: http://localhost:8883/favicon.ico
+2011-01-12T14:24:07 **********************************************************************************
+2011-01-12T14:25:36 **********************************************************************************
+2011-01-12T14:25:36 [Rewrite] Input: http://localhost:8883/
+2011-01-12T14:25:36 [Rule 0] Input: /
+2011-01-12T14:25:36 [Rule 1] Input: /
+2011-01-12T14:25:36 [Rewrite] Output: http://localhost:8883/
+2011-01-12T14:25:36 **********************************************************************************
+2011-01-12T14:25:36 **********************************************************************************
+2011-01-12T14:25:36 [Rewrite] Input: http://localhost:8883/favicon.ico
+2011-01-12T14:25:36 [Rule 0] Input: /favicon.ico
+2011-01-12T14:25:36 [Rule 1] Input: /favicon.ico
+2011-01-12T14:25:36 [Rewrite] Output: http://localhost:8883/favicon.ico
+2011-01-12T14:25:36 **********************************************************************************
+2011-01-12T14:25:36 **********************************************************************************
+2011-01-12T14:25:36 [Rewrite] Input: http://localhost:8883/other/shop/module/
+2011-01-12T14:25:36 [Rule 0] Input: /other/shop/module/
+2011-01-12T14:25:36 [Rule 0] Rule Pattern Matched
+2011-01-12T14:25:36 [Rule 0] Output: http://localhost:8181/shop/module/
+2011-01-12T14:25:36 [Rewrite] Proxy: http://localhost:8181/shop/module/
+2011-01-12T14:25:36 **********************************************************************************
+2011-01-12T14:25:36 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T14:25:36 [Rule 0] Input: /other/blog/headlines
+2011-01-12T14:25:36 [Rule 0] Rule Pattern Matched
+2011-01-12T14:25:36 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T14:25:36 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T14:25:36 **********************************************************************************
+2011-01-12T14:25:36 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T14:25:36 **********************************************************************************
+2011-01-12T14:25:36 [Proxy] Request: http://localhost:8181/shop/module/
+2011-01-12T14:25:36 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:25:36 [Proxy] Received '200 OK '
+2011-01-12T14:25:36 [Proxy] Response: http://localhost:8883/other/shop/module/
+2011-01-12T14:25:36 [Proxy] Response is being buffered
+2011-01-12T14:25:36 [Proxy] Responding '200 OK '
+2011-01-12T14:25:36 **********************************************************************************
+2011-01-12T14:25:36 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:25:36 [Proxy] Received '200 OK '
+2011-01-12T14:25:36 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T14:25:36 [Proxy] Response is being buffered
+2011-01-12T14:25:36 [Proxy] Responding '200 OK '
+2011-01-12T14:25:36 **********************************************************************************
+2011-01-12T14:25:36 **********************************************************************************
+2011-01-12T14:25:36 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T14:25:36 [Rule 0] Input: /other/blog/headlines
+2011-01-12T14:25:36 [Rule 0] Rule Pattern Matched
+2011-01-12T14:25:36 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T14:25:36 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T14:25:36 **********************************************************************************
+2011-01-12T14:25:36 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T14:25:36 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:25:36 [Proxy] Received '200 OK '
+2011-01-12T14:25:36 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T14:25:36 [Proxy] Response is being buffered
+2011-01-12T14:25:36 [Proxy] Responding '200 OK '
+2011-01-12T14:25:36 **********************************************************************************
+2011-01-12T14:25:36 **********************************************************************************
+2011-01-12T14:25:36 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T14:25:36 [Rule 0] Input: /other/blog/headlines
+2011-01-12T14:25:36 [Rule 0] Rule Pattern Matched
+2011-01-12T14:25:36 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T14:25:36 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T14:25:36 **********************************************************************************
+2011-01-12T14:25:36 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T14:25:36 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:25:36 [Proxy] Received '200 OK '
+2011-01-12T14:25:36 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T14:25:36 [Proxy] Response is being buffered
+2011-01-12T14:25:36 [Proxy] Responding '200 OK '
+2011-01-12T14:25:36 **********************************************************************************
+2011-01-12T14:26:01 **********************************************************************************
+2011-01-12T14:26:01 [Rewrite] Input: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T14:26:01 [Rule 0] Input: /authenticatedOther/shop/module
+2011-01-12T14:26:01 [Rule 1] Input: /authenticatedOther/shop/module
+2011-01-12T14:26:01 [Rule 1] Rule Pattern Matched
+2011-01-12T14:26:01 [Rewrite] Output: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T14:26:01 **********************************************************************************
+2011-01-12T14:26:01 **********************************************************************************
+2011-01-12T14:26:01 [Rewrite] Input: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T14:26:01 [Rule 0] Input: /authenticatedOther/shop/module
+2011-01-12T14:26:01 [Rule 1] Input: /authenticatedOther/shop/module
+2011-01-12T14:26:01 [Rule 1] Rule Pattern Matched
+2011-01-12T14:26:01 [Rewrite] Output: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T14:26:01 **********************************************************************************
+2011-01-12T14:26:01 **********************************************************************************
+2011-01-12T14:26:01 [Rewrite] Input: http://localhost:8883/favicon.ico
+2011-01-12T14:26:01 [Rule 0] Input: /favicon.ico
+2011-01-12T14:26:01 [Rule 1] Input: /favicon.ico
+2011-01-12T14:26:01 [Rewrite] Output: http://localhost:8883/favicon.ico
+2011-01-12T14:26:01 **********************************************************************************
+2011-01-12T14:26:03 **********************************************************************************
+2011-01-12T14:26:03 [Rewrite] Input: http://localhost:8883/favicon.ico
+2011-01-12T14:26:03 **********************************************************************************
+2011-01-12T14:26:03 **********************************************************************************
+2011-01-12T14:26:03 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T14:26:03 [Rule 0] Input: /other/blog/headlines
+2011-01-12T14:26:03 [Rule 0] Rule Pattern Matched
+2011-01-12T14:26:03 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T14:26:03 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T14:26:03 **********************************************************************************
+2011-01-12T14:26:03 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T14:26:03 [Rule 0] Input: /favicon.ico
+2011-01-12T14:26:03 [Rule 1] Input: /favicon.ico
+2011-01-12T14:26:03 [Rewrite] Input: http://localhost:8883/other/shop/module/
+2011-01-12T14:26:03 [Rule 0] Input: /other/shop/module/
+2011-01-12T14:26:03 [Rule 0] Rule Pattern Matched
+2011-01-12T14:26:03 [Rule 0] Output: http://localhost:8181/shop/module/
+2011-01-12T14:26:03 [Rewrite] Proxy: http://localhost:8181/shop/module/
+2011-01-12T14:26:03 [Rewrite] Output: http://localhost:8883/favicon.ico
+2011-01-12T14:26:03 **********************************************************************************
+2011-01-12T14:26:03 **********************************************************************************
+2011-01-12T14:26:03 [Proxy] Request: http://localhost:8181/shop/module/
+2011-01-12T14:26:03 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:26:03 [Proxy] Received '200 OK '
+2011-01-12T14:26:03 [Proxy] Response: http://localhost:8883/other/shop/module/
+2011-01-12T14:26:03 [Proxy] Response is being buffered
+2011-01-12T14:26:03 [Proxy] Responding '200 OK '
+2011-01-12T14:26:03 **********************************************************************************
+2011-01-12T14:26:03 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:26:03 [Proxy] Received '200 OK '
+2011-01-12T14:26:03 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T14:26:03 [Proxy] Response is being buffered
+2011-01-12T14:26:03 [Proxy] Responding '200 OK '
+2011-01-12T14:26:03 **********************************************************************************
+2011-01-12T14:26:03 **********************************************************************************
+2011-01-12T14:26:03 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T14:26:03 [Rule 0] Input: /other/blog/headlines
+2011-01-12T14:26:03 [Rule 0] Rule Pattern Matched
+2011-01-12T14:26:03 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T14:26:03 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T14:26:03 **********************************************************************************
+2011-01-12T14:26:03 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T14:26:03 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:26:03 [Proxy] Received '200 OK '
+2011-01-12T14:26:03 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T14:26:03 [Proxy] Response is being buffered
+2011-01-12T14:26:03 [Proxy] Responding '200 OK '
+2011-01-12T14:26:03 **********************************************************************************
+2011-01-12T14:26:03 **********************************************************************************
+2011-01-12T14:26:03 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T14:26:03 [Rule 0] Input: /other/blog/headlines
+2011-01-12T14:26:03 [Rule 0] Rule Pattern Matched
+2011-01-12T14:26:03 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T14:26:03 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T14:26:03 **********************************************************************************
+2011-01-12T14:26:03 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T14:26:03 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:26:03 [Proxy] Received '200 OK '
+2011-01-12T14:26:03 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T14:26:03 [Proxy] Response is being buffered
+2011-01-12T14:26:03 [Proxy] Responding '200 OK '
+2011-01-12T14:26:03 **********************************************************************************
+2011-01-12T14:26:04 **********************************************************************************
+2011-01-12T14:26:04 [Rewrite] Input: http://localhost:8883/authentication/login
+2011-01-12T14:26:04 [Rule 0] Input: /authentication/login
+2011-01-12T14:26:04 [Rule 1] Input: /authentication/login
+2011-01-12T14:26:04 [Rewrite] Output: http://localhost:8883/authentication/login
+2011-01-12T14:26:04 **********************************************************************************
+2011-01-12T14:26:04 **********************************************************************************
+2011-01-12T14:26:04 [Rewrite] Input: http://localhost:8883/favicon.ico
+2011-01-12T14:26:04 [Rule 0] Input: /favicon.ico
+2011-01-12T14:26:04 [Rule 1] Input: /favicon.ico
+2011-01-12T14:26:04 [Rewrite] Output: http://localhost:8883/favicon.ico
+2011-01-12T14:26:04 **********************************************************************************
+2011-01-12T14:26:04 **********************************************************************************
+2011-01-12T14:26:04 [Rewrite] Input: http://localhost:8883/authentication/content/scripts/lib/underscore.js
+2011-01-12T14:26:04 [Rule 0] Input: /authentication/content/scripts/lib/underscore.js
+2011-01-12T14:26:04 [Rule 1] Input: /authentication/content/scripts/lib/underscore.js
+2011-01-12T14:26:04 [Rewrite] Output: http://localhost:8883/authentication/content/scripts/lib/underscore.js
+2011-01-12T14:26:04 **********************************************************************************
+2011-01-12T14:26:15 **********************************************************************************
+2011-01-12T14:26:15 [Rewrite] Input: http://localhost:8883/authentication/loginsubmit
+2011-01-12T14:26:15 [Rule 0] Input: /authentication/loginsubmit
+2011-01-12T14:26:15 [Rule 1] Input: /authentication/loginsubmit
+2011-01-12T14:26:15 [Rewrite] Output: http://localhost:8883/authentication/loginsubmit
+2011-01-12T14:26:15 **********************************************************************************
+2011-01-12T14:26:15 **********************************************************************************
+2011-01-12T14:26:15 [Rewrite] Input: http://localhost:8883/
+2011-01-12T14:26:15 [Rule 0] Input: /
+2011-01-12T14:26:15 [Rule 1] Input: /
+2011-01-12T14:26:15 [Rewrite] Output: http://localhost:8883/
+2011-01-12T14:26:15 **********************************************************************************
+2011-01-12T14:26:15 **********************************************************************************
+2011-01-12T14:26:15 [Rewrite] Input: http://localhost:8883/favicon.ico
+2011-01-12T14:26:15 [Rule 0] Input: /favicon.ico
+2011-01-12T14:26:15 [Rule 1] Input: /favicon.ico
+2011-01-12T14:26:15 [Rewrite] Output: http://localhost:8883/favicon.ico
+2011-01-12T14:26:15 **********************************************************************************
+2011-01-12T14:26:15 **********************************************************************************
+2011-01-12T14:26:15 [Rewrite] Input: http://localhost:8883/other/shop/module/
+2011-01-12T14:26:15 [Rule 0] Input: /other/shop/module/
+2011-01-12T14:26:15 [Rule 0] Rule Pattern Matched
+2011-01-12T14:26:15 [Rule 0] Output: http://localhost:8181/shop/module/
+2011-01-12T14:26:15 [Rewrite] Proxy: http://localhost:8181/shop/module/
+2011-01-12T14:26:15 **********************************************************************************
+2011-01-12T14:26:15 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T14:26:15 [Rule 0] Input: /other/blog/headlines
+2011-01-12T14:26:15 [Rule 0] Rule Pattern Matched
+2011-01-12T14:26:15 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T14:26:15 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T14:26:15 **********************************************************************************
+2011-01-12T14:26:15 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T14:26:15 **********************************************************************************
+2011-01-12T14:26:15 [Proxy] Request: http://localhost:8181/shop/module/
+2011-01-12T14:26:15 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:26:15 [Proxy] Received '200 OK '
+2011-01-12T14:26:15 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T14:26:15 [Proxy] Response is being buffered
+2011-01-12T14:26:15 [Proxy] Responding '200 OK '
+2011-01-12T14:26:15 **********************************************************************************
+2011-01-12T14:26:15 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:26:15 [Proxy] Received '200 OK '
+2011-01-12T14:26:15 [Proxy] Response: http://localhost:8883/other/shop/module/
+2011-01-12T14:26:15 [Proxy] Response is being buffered
+2011-01-12T14:26:15 [Proxy] Responding '200 OK '
+2011-01-12T14:26:15 **********************************************************************************
+2011-01-12T14:26:15 **********************************************************************************
+2011-01-12T14:26:15 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T14:26:15 [Rule 0] Input: /other/blog/headlines
+2011-01-12T14:26:15 [Rule 0] Rule Pattern Matched
+2011-01-12T14:26:15 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T14:26:15 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T14:26:15 **********************************************************************************
+2011-01-12T14:26:15 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T14:26:15 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:26:15 [Proxy] Received '200 OK '
+2011-01-12T14:26:15 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T14:26:15 [Proxy] Response is being buffered
+2011-01-12T14:26:15 [Proxy] Responding '200 OK '
+2011-01-12T14:26:15 **********************************************************************************
+2011-01-12T14:26:15 **********************************************************************************
+2011-01-12T14:26:15 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T14:26:15 [Rule 0] Input: /other/blog/headlines
+2011-01-12T14:26:15 [Rule 0] Rule Pattern Matched
+2011-01-12T14:26:15 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T14:26:15 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T14:26:15 **********************************************************************************
+2011-01-12T14:26:15 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T14:26:15 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:26:15 [Proxy] Received '200 OK '
+2011-01-12T14:26:15 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T14:26:15 [Proxy] Response is being buffered
+2011-01-12T14:26:15 [Proxy] Responding '200 OK '
+2011-01-12T14:26:15 **********************************************************************************
+2011-01-12T14:26:20 **********************************************************************************
+2011-01-12T14:26:20 [Rewrite] Input: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T14:26:20 [Rule 0] Input: /authenticatedOther/shop/module
+2011-01-12T14:26:20 [Rule 1] Input: /authenticatedOther/shop/module
+2011-01-12T14:26:20 [Rule 1] Rule Pattern Matched
+2011-01-12T14:26:20 [Rule 1] Output: http://localhost:8181/shop/module
+2011-01-12T14:26:20 [Rewrite] Proxy: http://localhost:8181/shop/module
+2011-01-12T14:26:20 **********************************************************************************
+2011-01-12T14:26:20 [Proxy] Request: http://localhost:8181/shop/module
+2011-01-12T14:26:20 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:26:20 [Proxy] Received '200 OK '
+2011-01-12T14:26:20 [Proxy] Response: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T14:26:20 [Proxy] Response is being buffered
+2011-01-12T14:26:20 [Proxy] Responding '200 OK '
+2011-01-12T14:26:20 **********************************************************************************
+2011-01-12T14:26:20 **********************************************************************************
+2011-01-12T14:26:20 [Rewrite] Input: http://localhost:8883/favicon.ico
+2011-01-12T14:26:20 [Rule 0] Input: /favicon.ico
+2011-01-12T14:26:20 [Rule 1] Input: /favicon.ico
+2011-01-12T14:26:20 [Rewrite] Output: http://localhost:8883/favicon.ico
+2011-01-12T14:26:20 **********************************************************************************
+2011-01-12T14:26:25 **********************************************************************************
+2011-01-12T14:26:25 [Rewrite] Input: http://localhost:8883/favicon.ico
+2011-01-12T14:26:25 [Rule 0] Input: /favicon.ico
+2011-01-12T14:26:25 [Rule 1] Input: /favicon.ico
+2011-01-12T14:26:25 [Rewrite] Output: http://localhost:8883/favicon.ico
+2011-01-12T14:26:25 **********************************************************************************
+2011-01-12T14:26:25 **********************************************************************************
+2011-01-12T14:26:25 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T14:26:25 [Rule 0] Input: /other/blog/headlines
+2011-01-12T14:26:25 [Rule 0] Rule Pattern Matched
+2011-01-12T14:26:25 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T14:26:25 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T14:26:25 **********************************************************************************
+2011-01-12T14:26:25 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T14:26:25 **********************************************************************************
+2011-01-12T14:26:25 [Rewrite] Input: http://localhost:8883/other/shop/module/
+2011-01-12T14:26:25 [Rule 0] Input: /other/shop/module/
+2011-01-12T14:26:25 [Rule 0] Rule Pattern Matched
+2011-01-12T14:26:25 [Rule 0] Output: http://localhost:8181/shop/module/
+2011-01-12T14:26:25 [Rewrite] Proxy: http://localhost:8181/shop/module/
+2011-01-12T14:26:25 **********************************************************************************
+2011-01-12T14:26:25 [Proxy] Request: http://localhost:8181/shop/module/
+2011-01-12T14:26:25 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:26:25 [Proxy] Received '200 OK '
+2011-01-12T14:26:25 [Proxy] Response: http://localhost:8883/other/shop/module/
+2011-01-12T14:26:25 [Proxy] Response is being buffered
+2011-01-12T14:26:25 [Proxy] Responding '200 OK '
+2011-01-12T14:26:25 **********************************************************************************
+2011-01-12T14:26:25 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:26:25 [Proxy] Received '200 OK '
+2011-01-12T14:26:25 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T14:26:25 [Proxy] Response is being buffered
+2011-01-12T14:26:25 [Proxy] Responding '200 OK '
+2011-01-12T14:26:25 **********************************************************************************
+2011-01-12T14:26:25 **********************************************************************************
+2011-01-12T14:26:25 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T14:26:25 [Rule 0] Input: /other/blog/headlines
+2011-01-12T14:26:25 [Rule 0] Rule Pattern Matched
+2011-01-12T14:26:25 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T14:26:25 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T14:26:25 **********************************************************************************
+2011-01-12T14:26:25 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T14:26:25 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:26:25 [Proxy] Received '200 OK '
+2011-01-12T14:26:25 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T14:26:25 [Proxy] Response is being buffered
+2011-01-12T14:26:25 [Proxy] Responding '200 OK '
+2011-01-12T14:26:25 **********************************************************************************
+2011-01-12T14:26:25 **********************************************************************************
+2011-01-12T14:26:25 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T14:26:25 [Rule 0] Input: /other/blog/headlines
+2011-01-12T14:26:25 [Rule 0] Rule Pattern Matched
+2011-01-12T14:26:25 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T14:26:25 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T14:26:25 **********************************************************************************
+2011-01-12T14:26:25 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T14:26:25 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:26:25 [Proxy] Received '200 OK '
+2011-01-12T14:26:25 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T14:26:25 [Proxy] Response is being buffered
+2011-01-12T14:26:25 [Proxy] Responding '200 OK '
+2011-01-12T14:26:25 **********************************************************************************
+2011-01-12T14:30:08 **********************************************************************************
+2011-01-12T14:30:08 [Rewrite] Input: http://localhost:8883/authentication/logout
+2011-01-12T14:30:08 [Rule 0] Input: /authentication/logout
+2011-01-12T14:30:08 [Rule 1] Input: /authentication/logout
+2011-01-12T14:30:08 [Rewrite] Output: http://localhost:8883/authentication/logout
+2011-01-12T14:30:08 **********************************************************************************
+2011-01-12T14:30:08 **********************************************************************************
+2011-01-12T14:30:08 [Rewrite] Input: http://localhost:8883/
+2011-01-12T14:30:08 [Rule 0] Input: /
+2011-01-12T14:30:08 [Rule 1] Input: /
+2011-01-12T14:30:08 [Rewrite] Output: http://localhost:8883/
+2011-01-12T14:30:08 **********************************************************************************
+2011-01-12T14:30:08 **********************************************************************************
+2011-01-12T14:30:08 [Rewrite] Input: http://localhost:8883/favicon.ico
+2011-01-12T14:30:08 [Rule 0] Input: /favicon.ico
+2011-01-12T14:30:08 [Rule 1] Input: /favicon.ico
+2011-01-12T14:30:08 [Rewrite] Output: http://localhost:8883/favicon.ico
+2011-01-12T14:30:08 **********************************************************************************
+2011-01-12T14:30:08 **********************************************************************************
+2011-01-12T14:30:08 [Rewrite] Input: http://localhost:8883/other/shop/module/
+2011-01-12T14:30:08 [Rule 0] Input: /other/shop/module/
+2011-01-12T14:30:08 [Rule 0] Rule Pattern Matched
+2011-01-12T14:30:08 [Rule 0] Output: http://localhost:8181/shop/module/
+2011-01-12T14:30:08 [Rewrite] Proxy: http://localhost:8181/shop/module/
+2011-01-12T14:30:08 **********************************************************************************
+2011-01-12T14:30:08 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T14:30:08 [Rule 0] Input: /other/blog/headlines
+2011-01-12T14:30:08 [Rule 0] Rule Pattern Matched
+2011-01-12T14:30:08 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T14:30:08 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T14:30:08 **********************************************************************************
+2011-01-12T14:30:08 [Proxy] Request: http://localhost:8181/shop/module/
+2011-01-12T14:30:08 **********************************************************************************
+2011-01-12T14:30:08 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T14:30:08 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:30:08 [Proxy] Received '200 OK '
+2011-01-12T14:30:08 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T14:30:08 [Proxy] Response is being buffered
+2011-01-12T14:30:08 [Proxy] Responding '200 OK '
+2011-01-12T14:30:08 **********************************************************************************
+2011-01-12T14:30:08 **********************************************************************************
+2011-01-12T14:30:08 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T14:30:08 [Rule 0] Input: /other/blog/headlines
+2011-01-12T14:30:08 [Rule 0] Rule Pattern Matched
+2011-01-12T14:30:08 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T14:30:08 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T14:30:08 **********************************************************************************
+2011-01-12T14:30:08 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T14:30:08 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:30:08 [Proxy] Received '200 OK '
+2011-01-12T14:30:08 [Proxy] Response: http://localhost:8883/other/shop/module/
+2011-01-12T14:30:08 [Proxy] Response is being buffered
+2011-01-12T14:30:08 [Proxy] Responding '200 OK '
+2011-01-12T14:30:08 **********************************************************************************
+2011-01-12T14:30:08 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:30:08 [Proxy] Received '200 OK '
+2011-01-12T14:30:08 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T14:30:08 [Proxy] Response is being buffered
+2011-01-12T14:30:08 [Proxy] Responding '200 OK '
+2011-01-12T14:30:08 **********************************************************************************
+2011-01-12T14:30:08 **********************************************************************************
+2011-01-12T14:30:08 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T14:30:08 [Rule 0] Input: /other/blog/headlines
+2011-01-12T14:30:08 [Rule 0] Rule Pattern Matched
+2011-01-12T14:30:08 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T14:30:08 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T14:30:08 **********************************************************************************
+2011-01-12T14:30:08 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T14:30:08 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:30:08 [Proxy] Received '200 OK '
+2011-01-12T14:30:08 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T14:30:08 [Proxy] Response is being buffered
+2011-01-12T14:30:08 [Proxy] Responding '200 OK '
+2011-01-12T14:30:08 **********************************************************************************
+2011-01-12T14:30:09 **********************************************************************************
+2011-01-12T14:30:09 [Rewrite] Input: http://localhost:8883/authentication/login
+2011-01-12T14:30:09 [Rule 0] Input: /authentication/login
+2011-01-12T14:30:09 [Rule 1] Input: /authentication/login
+2011-01-12T14:30:09 [Rewrite] Output: http://localhost:8883/authentication/login
+2011-01-12T14:30:09 **********************************************************************************
+2011-01-12T14:30:09 **********************************************************************************
+2011-01-12T14:30:09 [Rewrite] Input: http://localhost:8883/authentication/content/scripts/lib/underscore.js
+2011-01-12T14:30:09 [Rule 0] Input: /authentication/content/scripts/lib/underscore.js
+2011-01-12T14:30:09 [Rule 1] Input: /authentication/content/scripts/lib/underscore.js
+2011-01-12T14:30:09 [Rewrite] Output: http://localhost:8883/authentication/content/scripts/lib/underscore.js
+2011-01-12T14:30:09 **********************************************************************************
+2011-01-12T14:30:09 **********************************************************************************
+2011-01-12T14:30:09 [Rewrite] Input: http://localhost:8883/favicon.ico
+2011-01-12T14:30:09 [Rule 0] Input: /favicon.ico
+2011-01-12T14:30:09 [Rule 1] Input: /favicon.ico
+2011-01-12T14:30:09 [Rewrite] Output: http://localhost:8883/favicon.ico
+2011-01-12T14:30:09 **********************************************************************************
+2011-01-12T14:30:14 **********************************************************************************
+2011-01-12T14:30:14 [Rewrite] Input: http://localhost:8883/authentication/loginsubmit
+2011-01-12T14:30:14 [Rule 0] Input: /authentication/loginsubmit
+2011-01-12T14:30:14 [Rule 1] Input: /authentication/loginsubmit
+2011-01-12T14:30:14 [Rewrite] Output: http://localhost:8883/authentication/loginsubmit
+2011-01-12T14:30:14 **********************************************************************************
+2011-01-12T14:30:14 **********************************************************************************
+2011-01-12T14:30:14 [Rewrite] Input: http://localhost:8883/
+2011-01-12T14:30:14 [Rule 0] Input: /
+2011-01-12T14:30:14 [Rule 1] Input: /
+2011-01-12T14:30:14 [Rewrite] Output: http://localhost:8883/
+2011-01-12T14:30:14 **********************************************************************************
+2011-01-12T14:30:14 **********************************************************************************
+2011-01-12T14:30:14 [Rewrite] Input: http://localhost:8883/favicon.ico
+2011-01-12T14:30:14 [Rule 0] Input: /favicon.ico
+2011-01-12T14:30:14 [Rule 1] Input: /favicon.ico
+2011-01-12T14:30:14 [Rewrite] Output: http://localhost:8883/favicon.ico
+2011-01-12T14:30:14 **********************************************************************************
+2011-01-12T14:30:14 **********************************************************************************
+2011-01-12T14:30:14 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T14:30:14 [Rule 0] Input: /other/blog/headlines
+2011-01-12T14:30:14 [Rule 0] Rule Pattern Matched
+2011-01-12T14:30:14 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T14:30:14 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T14:30:14 **********************************************************************************
+2011-01-12T14:30:14 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T14:30:14 **********************************************************************************
+2011-01-12T14:30:14 [Rewrite] Input: http://localhost:8883/other/shop/module/
+2011-01-12T14:30:14 [Rule 0] Input: /other/shop/module/
+2011-01-12T14:30:14 [Rule 0] Rule Pattern Matched
+2011-01-12T14:30:14 [Rule 0] Output: http://localhost:8181/shop/module/
+2011-01-12T14:30:14 [Rewrite] Proxy: http://localhost:8181/shop/module/
+2011-01-12T14:30:14 **********************************************************************************
+2011-01-12T14:30:14 [Proxy] Request: http://localhost:8181/shop/module/
+2011-01-12T14:30:14 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:30:14 [Proxy] Received '200 OK '
+2011-01-12T14:30:14 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T14:30:14 [Proxy] Response is being buffered
+2011-01-12T14:30:14 [Proxy] Responding '200 OK '
+2011-01-12T14:30:14 **********************************************************************************
+2011-01-12T14:30:14 **********************************************************************************
+2011-01-12T14:30:14 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T14:30:14 [Rule 0] Input: /other/blog/headlines
+2011-01-12T14:30:14 [Rule 0] Rule Pattern Matched
+2011-01-12T14:30:14 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T14:30:14 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T14:30:14 **********************************************************************************
+2011-01-12T14:30:14 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T14:30:14 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:30:14 [Proxy] Received '200 OK '
+2011-01-12T14:30:14 [Proxy] Response: http://localhost:8883/other/shop/module/
+2011-01-12T14:30:14 [Proxy] Response is being buffered
+2011-01-12T14:30:14 [Proxy] Responding '200 OK '
+2011-01-12T14:30:14 **********************************************************************************
+2011-01-12T14:30:14 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:30:14 [Proxy] Received '200 OK '
+2011-01-12T14:30:14 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T14:30:14 [Proxy] Response is being buffered
+2011-01-12T14:30:14 [Proxy] Responding '200 OK '
+2011-01-12T14:30:14 **********************************************************************************
+2011-01-12T14:30:14 **********************************************************************************
+2011-01-12T14:30:14 [Rewrite] Input: http://localhost:8883/other/blog/headlines
+2011-01-12T14:30:14 [Rule 0] Input: /other/blog/headlines
+2011-01-12T14:30:14 [Rule 0] Rule Pattern Matched
+2011-01-12T14:30:14 [Rule 0] Output: http://localhost:8181/blog/headlines
+2011-01-12T14:30:14 [Rewrite] Proxy: http://localhost:8181/blog/headlines
+2011-01-12T14:30:14 **********************************************************************************
+2011-01-12T14:30:14 [Proxy] Request: http://localhost:8181/blog/headlines
+2011-01-12T14:30:14 [Proxy] System.Net.HttpWebResponse
+2011-01-12T14:30:14 [Proxy] Received '200 OK '
+2011-01-12T14:30:14 [Proxy] Response: http://localhost:8883/other/blog/headlines
+2011-01-12T14:30:14 [Proxy] Response is being buffered
+2011-01-12T14:30:14 [Proxy] Responding '200 OK '
+2011-01-12T14:30:14 **********************************************************************************
+2011-01-12T14:30:19 **********************************************************************************
+2011-01-12T14:30:19 [Rewrite] Input: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T14:30:19 [Rule 0] Input: /authenticatedOther/shop/module
+2011-01-12T14:30:19 [Rule 1] Input: /authenticatedOther/shop/module
+2011-01-12T14:30:19 [Rule 1] Rule Pattern Matched
+2011-01-12T14:30:19 [Rewrite] Output: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T14:30:19 **********************************************************************************
+2011-01-12T14:30:19 **********************************************************************************
+2011-01-12T14:30:19 [Rewrite] Input: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T14:30:19 [Rule 0] Input: /authenticatedOther/shop/module
+2011-01-12T14:30:19 [Rule 1] Input: /authenticatedOther/shop/module
+2011-01-12T14:30:19 [Rule 1] Rule Pattern Matched
+2011-01-12T14:30:19 [Rewrite] Output: http://localhost:8883/authenticatedOther/shop/module
+2011-01-12T14:30:19 **********************************************************************************
+2011-01-12T14:30:19 **********************************************************************************
+2011-01-12T14:30:19 [Rewrite] Input: http://localhost:8883/favicon.ico
+2011-01-12T14:30:19 [Rule 0] Input: /favicon.ico
+2011-01-12T14:30:19 [Rule 1] Input: /favicon.ico
+2011-01-12T14:30:19 [Rewrite] Output: http://localhost:8883/favicon.ico
+2011-01-12T14:30:19 **********************************************************************************
+**********************************************************************************
+Logging started on 2011-01-12T14:37:05
+**********************************************************************************
+**********************************************************************************
+Logging started on 2011-01-12T16:40:22
+**********************************************************************************
+**********************************************************************************
+Logging started on 2011-01-12T16:40:58
+**********************************************************************************
+**********************************************************************************
+Logging started on 2011-01-12T16:42:23
+**********************************************************************************
+**********************************************************************************
+Logging started on 2011-01-12T16:43:56
+**********************************************************************************
+**********************************************************************************
+Logging started on 2011-01-12T16:44:48
+**********************************************************************************
+**********************************************************************************
+Logging started on 2011-01-12T16:44:55
+**********************************************************************************
+**********************************************************************************
+Logging started on 2011-01-12T16:46:17
+**********************************************************************************
+**********************************************************************************
+Logging started on 2011-01-12T16:46:21
+**********************************************************************************
+**********************************************************************************
+Logging started on 2011-01-13T18:42:03
+**********************************************************************************
+**********************************************************************************
+Logging started on 2011-01-13T18:44:51
+**********************************************************************************
+**********************************************************************************
+Logging started on 2011-01-13T18:44:58
+**********************************************************************************
+**********************************************************************************
+Logging started on 2011-01-13T18:45:47
+**********************************************************************************
+**********************************************************************************
+Logging started on 2011-01-13T18:46:18
+**********************************************************************************
+**********************************************************************************
+Logging started on 2011-01-13T18:47:06
+**********************************************************************************
+**********************************************************************************
+Logging started on 2011-01-13T18:47:08
+**********************************************************************************
+**********************************************************************************
+Logging started on 2011-01-13T18:47:15
+**********************************************************************************
+**********************************************************************************
+Logging started on 2011-01-13T18:47:16
+**********************************************************************************
+**********************************************************************************
+Logging started on 2011-01-13T18:48:43
+**********************************************************************************
+**********************************************************************************
+Logging started on 2011-01-13T18:49:01
+**********************************************************************************
+**********************************************************************************
+Logging started on 2011-01-13T19:15:18
+**********************************************************************************
+**********************************************************************************
+Logging started on 2011-01-14T13:56:03
+**********************************************************************************
+**********************************************************************************
+Logging started on 2011-01-14T14:05:46
+**********************************************************************************
+**********************************************************************************
+Logging started on 2011-01-14T14:47:32
+**********************************************************************************

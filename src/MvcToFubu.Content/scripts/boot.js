@@ -4,9 +4,12 @@ require({
 		underscore: "wrapper/require_underscore"
 	}
 },
-	["main"],
-	function (main) {
-		require.ready(function () {
-			main.init();
-		});
+	["util/store"],
+	function (store) {
+		if (!store.get('whoa')) {
+			store.set('whoa', new Date());
+		}
+		else {
+			alert(store.get('whoa'));
+		}
 	});

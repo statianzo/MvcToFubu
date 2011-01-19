@@ -1,0 +1,10 @@
+#RewriteLogLevel 9
+RewriteModule Authentication MvcToFubu.Framework.AuthenticationCondition, MvcToFubu
+RewriteEngine on
+RewriteBase / 
+RewriteRule ^/other/(.*) http://localhost:8181/$1 [NC, L, P]
+
+RewriteCond(Authentication,) %{AUTH_USER} ^admin$
+RewriteRule ^/authenticatedOther/(.*) http://localhost:8181/$1 [NC, L, P]
+
+RewriteLog rewritelog.log

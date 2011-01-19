@@ -42,6 +42,9 @@
     <Reference Include="FubuMVC.StructureMap">
       <HintPath>..\..\lib\FubuMVC\FubuMVC.StructureMap.dll</HintPath>
     </Reference>
+    <Reference Include="ManagedFusion.Rewriter">
+      <HintPath>..\..\lib\ManagedFusion\ManagedFusion.Rewriter.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.Practices.ServiceLocation">
       <HintPath>..\..\lib\FubuMVC\Microsoft.Practices.ServiceLocation.dll</HintPath>
@@ -68,10 +71,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="ManagedFusion.Rewriter.txt" />
     <Content Include="scripts\allplugins-require.js" />
     <Content Include="scripts\blog.js" />
     <Content Include="scripts\boot.js" />
     <Content Include="scripts\lib\jquery-1.4.4.js" />
+    <Content Include="scripts\util\store.js" />
     <Content Include="scripts\util\json.js" />
     <Content Include="scripts\main.js" />
     <Content Include="scripts\text\hello.txt" />

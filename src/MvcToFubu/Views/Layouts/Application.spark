@@ -6,6 +6,13 @@
 	<menu label="Menu">
 		<li><a href="~/contact">Contact</a></li>
 		<li><a href="~/about">About</a></li>
+		<if condition="Html.ViewContext.HttpContext.User.Identity.IsAuthenticated">
+			<li>Welcome ${Html.ViewContext.HttpContext.User.Identity.Name}!</li>
+			<li><a href="~/authentication/logout">Logout</a></li>
+		</if>
+		<else>
+			<li><a href="~/authentication/login">Login</a></li>
+		</else>
 	</menu>
 </header>
 <div id="main">
